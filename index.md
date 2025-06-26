@@ -3,8 +3,7 @@ layout: default
 title: home
 ---
 
-* TOC
-{:toc}
+{% toc %}
 
 # Welcome!
 
