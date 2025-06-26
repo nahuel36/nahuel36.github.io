@@ -3,6 +3,8 @@ layout: default
 title: home
 ---
 
+* TOC {:toc}
+
 # Welcome!
 
 I develop my own games... 
