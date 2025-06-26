@@ -66,12 +66,13 @@
         <ul></ul>
       </nav>
         
-  <div id="table-of-contents">
-    {% include toc.html html=content %}
-  </div>
+  
   
   <section>  
-  <div id="markdown-content">
+  <div>
+    {% include toc.html html=content %}
+  </div>
+    <div id="markdown-content">
     {{ content | inject_anchors }}
   </div>
   </section>
