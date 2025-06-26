@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 {% seo %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.32.2/tocbot.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <!--<script src="{{ '/assets/js/main.js' | relative_url }}"></script>-->
@@ -71,16 +70,16 @@
       <nav>
         <ul></ul>
       </nav>
-        <section>
+        
 <div id="page-wrapper">
-  <div id="table-of-contents">
-    {{ toc_only }}
-  </div>
+  <section>
   <div id="markdown-content">
+    {{ toc_only }}
     {{ content | inject_anchors }}
   </div>
+  </section>
 </div>
-        </section>
+        
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -88,20 +87,6 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.32.2/tocbot.min.js"></script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Esperamos un poco a que Jekyll inyecte el contenido
-    setTimeout(function () {
-      tocbot.init({
-        tocSelector: '.js-toc',
-        contentSelector: '.js-toc-content',
-        headingSelector: 'h1, h2, h3',
-        hasInnerContainers: true,
-      });
-    }, 500);
-  });
-</script>
   </body>
 </html>
