@@ -21,8 +21,6 @@
         <h1>Lab36</h1></h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
-    
-<div class="js-toc"></div>
 
       <div id="banner">
         <span id="logo"></span>
@@ -43,9 +41,16 @@
       <nav>
         <ul></ul>
       </nav>
-      <section class="js-toc-content">
-        {{ content }}
-      </section>
+<div class="layout-container" style="display: flex; gap: 1rem;">
+  <nav class="toc-sidebar" style="min-width: 200px;">
+    <!-- Aquí buscamos el TOC insertado en el contenido -->
+    {{ content | split: '<h1' | first }}
+  </nav>
+  <section class="page-content">
+    <!-- Y aquí el contenido sin el TOC -->
+    {{ content | remove_first: content | split: '<h1' | first }}
+  </section>
+</div>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
