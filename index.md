@@ -1,5 +1,6 @@
 ---
 layout: default
+title: lab36
 ---
 
 # Welcome!
