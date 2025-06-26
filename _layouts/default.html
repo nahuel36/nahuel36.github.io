@@ -18,6 +18,7 @@
   #page-wrapper {
     display: flex;
     gap: 2rem;
+    align-items: flex-start;
   }
 
   #table-of-contents {
@@ -33,9 +34,14 @@
     font-size: 0.9rem;
   }
 
+  #table-of-contents:empty {
+    display: none;
+  }
+
   #main-content {
     flex: 1;
   }
+}
 </style>
     
   </head>
@@ -68,8 +74,8 @@
         
   
   
-  <section>  
-  <div>
+  <section id="page-wrapper">  
+  <div  id="table-of-contents">
     {% include toc.html html=content %}
   </div>
     <div id="markdown-content">
