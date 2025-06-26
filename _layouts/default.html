@@ -18,6 +18,15 @@
   </head>
   <body>
 
+  <!-- Contenedor del índice -->
+  <aside class="js-toc"></aside>
+
+  <!-- Contenido donde buscar encabezados -->
+  <main class="js-toc-content">
+    {{ content }}
+  </main>
+
+    
       <header>
         <h1>Lab36</h1></h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
