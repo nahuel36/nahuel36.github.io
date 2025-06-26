@@ -1,4 +1,5 @@
 
-# Bienvenido a mi wiki
+# Welcome!
 
-¡Esta es la documentación de lab36.com.ar!
+¡I develop my own games... not the best look, but hey, I’m just a programmer.!
+
