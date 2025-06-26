@@ -1,5 +1,5 @@
-title: Mi Wiki
-description: Documentación del sitio lab36.com.ar
+title: Lab36
+description: VideoGames 
 url: https://lab36.com.ar
 baseurl: ""  # Dejar vacío si es dominio raíz
 remote_theme: pages-themes/midnight@v0.2.0
