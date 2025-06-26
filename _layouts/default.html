@@ -67,21 +67,21 @@
         {% endif %}
       </div><!-- end banner -->
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-        
-  
-  
   <section id="page-wrapper">  
   <div  id="table-of-contents">
     {% include toc.html html=content %}
   </div>
+  </section>
+    
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+
     <div id="markdown-content">
     {{ content | inject_anchors }}
   </div>
-  </section>
+  
         
       <footer>
         {% if site.github.is_project_page %}
