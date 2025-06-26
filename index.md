@@ -3,8 +3,6 @@ layout: default
 title: home
 ---
 
-{% toc %}
-
 # Welcome!
 
 I develop my own games... 
