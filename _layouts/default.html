@@ -67,20 +67,21 @@
         {% endif %}
       </div><!-- end banner -->
 
-  <section id="page-wrapper">  
+  <div id="page-wrapper">  
   <div  id="table-of-contents">
     {% include toc.html html=content %}
   </div>
-  </section>
+  </div>
     
     <div class="wrapper">
       <nav>
         <ul></ul>
       </nav>
-
+    <section>
     <div id="markdown-content">
     {{ content | inject_anchors }}
   </div>
+    </section>
   
         
       <footer>
