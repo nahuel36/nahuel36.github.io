@@ -15,22 +15,25 @@
     {% include head-custom.html %}
 
 <style>
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
   #page-wrapper {
     display: flex;
-    gap: 2rem;
-    padding: 2rem;
     max-width: 100%;
   }
 
   #table-of-contents {
     min-width: 220px;
     max-width: 300px;
-    max-height: 90vh;
+    height: 100vh;
     overflow-y: auto;
     position: sticky;
-    top: 1rem;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
+    top: 0;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
     padding: 1rem;
     font-size: 0.9rem;
   }
@@ -39,10 +42,17 @@
     display: none;
   }
 
-  #main-content {
+  #markdown-content {
     flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
   }
-}
+
+  .wrapper {
+    max-width: 100%;
+  }
 </style>
     
   </head>
@@ -76,7 +86,6 @@
     <div id="markdown-content">
     {{ content | inject_anchors }}
   </div>
-    
   </section>
     
     <div class="wrapper">
