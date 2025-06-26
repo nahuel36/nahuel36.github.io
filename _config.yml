@@ -2,5 +2,6 @@ title: Lab36
 description: VideoGames 
 url: https://lab36.com.ar
 baseurl: ""  # Dejar vacío si es dominio raíz
+theme: jekyll-theme-leap-day
 plugins: 
 - jekyll-remote-theme # add this line to the plugins list if you already have one
