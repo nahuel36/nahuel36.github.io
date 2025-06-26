@@ -6,13 +6,15 @@ I develop my own games...
 <br />You can check in [Itch.io](https://nahuel36.itch.io/)
 
 ### I'm experimenting with 
-- **shaders**, 
-- other Unity tools like
+- **shaders** 
+  - Shader Graph
+  - HLSL
+- Unity tools like
   - unit-testing
   - ui-toolkit
   - timeline window
   - node graphs 
-- and assets like
+- and Assets like
   - DoTween
   - some path-finders
 
