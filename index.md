@@ -1,6 +1,6 @@
 ---
 layout: default
-title: lab36
+title: home
 ---
 
 # Welcome!
