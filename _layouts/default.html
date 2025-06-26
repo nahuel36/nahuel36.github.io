@@ -22,10 +22,7 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
     
-  <!-- Contenedor del índice -->  
-    <div class="js-toc"></div>
 
-    
       <div id="banner">
         <span id="logo"></span>
 
@@ -67,7 +64,7 @@
         headingSelector: 'h1, h2, h3',
         hasInnerContainers: true,
       });
-    }, 100);
+    }, 500);
   });
 </script>
   </body>
