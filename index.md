@@ -22,10 +22,6 @@ I develop my own games...
   - DoTween
   - some path-finders
 
-I developed games with other companies too, these have better look.
-<br />In this companies i take experience in console ports, like PS5, Xbox and Switch. 
-<br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
-
 # Working tittles
 
 * **Light and Dark**
@@ -46,3 +42,10 @@ I developed games with other companies too, these have better look.
 
 * **Monkey zero: Christmas special**
 <br /> This is a demo of Monkey Zero project
+
+# Games with companies
+
+I developed games with other companies too, these have better look.
+<br />In this companies I toke experience in console ports, like PS5, Xbox and Switch. 
+<br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
+
