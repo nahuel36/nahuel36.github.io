@@ -19,5 +19,3 @@ De todos modos, facilitaré **videos** explicando como usar las herramientas, y 
 Recomiendo que se use GIT o algun sistema de versionado para tener backup y seguimiento de los cambios que se van haciendo.
 
 Lamentablemente el resto de la wiki estará en inglés, ya que es el idioma mas utilizado en desarrollo de software.
-
-Por el momento en esta wiki solo hay paginas creadas a modo de recordatorio, no tienen contenido importante.
