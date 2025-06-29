@@ -24,7 +24,7 @@ I develop my own games...
 
 I developed games with other companies too, these have better look.
 <br />In this companies i take experience in console ports, like PS5, Xbox and Switch. 
-<br />You can check it in my [LinkedIn page](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
+<br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
 # Working tittles
 
