@@ -33,12 +33,12 @@ I develop my own games...
 # Finished or paused projects
 
 * **Focus**
-<br /> Like pong but a wall instead of an enemy, 
-<br /> Adding graphic effects mostly with shaders, trying distract you
+<br /> Like pong with a wall instead of an enemy, 
+<br /> Adding graphic effects mostly with shaders, trying to distract you
 
 * **Ninja Zen**
 <br /> A tap, casual game
-<br /> You have to destroy bottles with our ninja before hits you
+<br /> You have to destroy bottles with our ninja before it hits you
 
 * **Monkey zero: Christmas special**
 <br /> This is a demo of Monkey Zero project
