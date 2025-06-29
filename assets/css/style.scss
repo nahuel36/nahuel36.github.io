@@ -25,8 +25,12 @@ custom_link {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;        /* Permite que los links bajen en pantallas chicas */
-  align-items: center;    /* Alinea verticalmente */
   justify-content: flex-start; /* O 'center' si querés centrado */
+}
+
+.layout_top_links a {
+  display: inline-block;     /* O block si preferís */
+  text-decoration: none;
 }
 
 section {
