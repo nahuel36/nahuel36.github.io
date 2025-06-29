@@ -61,3 +61,23 @@ header h1 {
 header p {
   margin: 0;
 }
+
+
+#banner {
+
+    background: #356e78;
+    border: 1px solid #213e50;
+}
+
+
+#banner .button {
+    border: 1px solid #172d46;
+    background: linear-gradient(#79d9e5, #417183);
+    background-color: #2c5f7a;
+    color: #ffffff;
+}
+
+#banner .button:hover {
+    background: linear-gradient(#88dbff, #88c9ff);
+    background-color: #ffeca0
+}
