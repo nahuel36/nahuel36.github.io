@@ -7,7 +7,7 @@ title: LAB36
 
 I develop my own games... 
 <br />Not the best look, but hey, I’m just a programmer!.
-<br />You can check in **[Itch.io](https://nahuel36.itch.io/)**
+<br />You can check in [Itch.io](https://nahuel36.itch.io/)
 
 ### I'm experimenting with 
 - **shaders** 
@@ -24,7 +24,7 @@ I develop my own games...
 
 I developed games with other companies too, these have better look.
 <br />In this companies i take experience in console ports, like PS5, Xbox and Switch. 
-<br />You can check it in my [**LinkedIn page**](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
+<br />You can check it in my [LinkedIn page](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
 # Working tittles
 
