@@ -7,10 +7,9 @@ description: Point and Click Engine
 
 **ARTemito** will be an **adventure graphic** or **point and click** genre Asset that will help you create your own game in **Unity**. 
 
-(This is the english intro of Artemito, for a **Spanish** versión follow [this link](https://bitbucket.org/nahuel36/tdd/wiki/Intro%20Spanish))
+(This is the english intro of Artemito, for a **Spanish** versión follow [this link]({{ site.baseurl }}/artemito/spanish/))
 
 There is still much work to be done. I want it to be **flexible** and **easy to use**. 
-
 
 There are already some assets in the market but I want to do something different, a **fully customizable** engine, with tools like **Unit Testing** cases included and use of **design patterns**. 
 
