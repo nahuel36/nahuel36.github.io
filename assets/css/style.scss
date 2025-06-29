@@ -23,7 +23,10 @@ custom_link {
 
 .layout_top_links {
   display: flex;
-  gap: 1rem; /* Espacio entre logo y texto */
+  gap: 1rem;
+  flex-wrap: wrap;        /* Permite que los links bajen en pantallas chicas */
+  align-items: center;    /* Alinea verticalmente */
+  justify-content: flex-start; /* O 'center' si querés centrado */
 }
 
 section {
