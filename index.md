@@ -24,7 +24,7 @@ I develop my own games...
 
 # Working tittles
 
-* **Light and Dark**
+* [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)
@@ -32,15 +32,15 @@ I develop my own games...
 
 # Finished or paused projects
 
-* **Focus**
+* [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus)
 <br /> Like pong but with a wall instead of an enemy, 
 <br /> Adding graphic effects mostly with shaders, trying to distract you
 
-* **Ninja Zen**
+* [<custom_link>Ninja Zen</custom_link>](https://nahuel36.itch.io/ninja-zen)
 <br /> A tap, casual game
 <br /> You have to destroy bottles with our ninja before it hits you
 
-* **Monkey zero: Christmas special**
+* [<custom_link>Monkey zero: Christmas special</custom_link>](https://nahuel36.itch.io/monkey-zero-christmas-special)
 <br /> This is a demo of Monkey Zero project
 
 # Games with companies
