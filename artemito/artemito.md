@@ -1,7 +1,8 @@
 ---
 layout: default
-title: home
+title: Artemito
 permalink: /artemito/
+description: Point and Click Engine
 ---
 
 # Welcome!
