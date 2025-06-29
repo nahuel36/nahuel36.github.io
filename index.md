@@ -31,7 +31,7 @@ I developed games with other companies too, these have better look.
 * **Light and Dark**
 <br /> A top-down puzzle game
 
-* **Artemito**
+* [<custom_link>Artemito</custom_link>]({% link /artemito/artemito.md %})
 <br /> A Point and Click engine, for Unity Asset Store
 
 # Finished or paused projects
