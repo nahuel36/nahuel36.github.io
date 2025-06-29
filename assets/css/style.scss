@@ -13,6 +13,13 @@ p,ul,ol,table,pre,dl {
     margin-right: 12px;
 }
 
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 section {
     margin-left: 5px;
     margin-right: 5px;
