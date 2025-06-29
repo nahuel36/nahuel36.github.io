@@ -20,6 +20,13 @@ custom_link {
   font-weight: bold;
 }
 
+
+.layout_top_links {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el logo y el texto */
+  gap: 1rem; /* Espacio entre logo y texto */
+}
+
 section {
     margin-left: 5px;
     margin-right: 5px;
