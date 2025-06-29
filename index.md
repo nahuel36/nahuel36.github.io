@@ -33,7 +33,7 @@ I develop my own games...
 # Finished or paused projects
 
 * **Focus**
-<br /> Like pong with a wall instead of an enemy, 
+<br /> Like pong but with a wall instead of an enemy, 
 <br /> Adding graphic effects mostly with shaders, trying to distract you
 
 * **Ninja Zen**
