@@ -18,8 +18,13 @@
   <body>
 
       <header>
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        <div class="wrapper">
+          <span id="logo"></span>
+          <div>
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+          </div>
+        </div>
       </header>
 
       <div id="banner">
