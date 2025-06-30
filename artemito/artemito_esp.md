@@ -8,7 +8,7 @@ description: Point and Click Engine
 **ARTemito** será un Asset de del género **aventura gráfica** o **point and click** que te ayudará a crear tu propio juego en **Unity**.
 
 Hay mucho trabajo por hacer. Quiero que sea **flexible** y **fácil de usar**.
-Ya hay algunos assets en el mercado pero quiero hacer algo diferente, un engine totalmente **customizable**, con herramientas como casos de** Unit Testing** incluídos y uso de **patrones de diseño**.
+Ya hay algunos assets en el mercado pero quiero hacer algo diferente, un engine totalmente **customizable**, con herramientas como casos de **Unit Testing** incluídos y uso de **patrones de diseño**.
 
 Será un asset barato, en la dimensión de lo que el engine es capaz de hacer. 
 
@@ -19,5 +19,3 @@ De todos modos, facilitaré **videos** explicando como usar las herramientas, y 
 Recomiendo que se use GIT o algun sistema de versionado para tener backup y seguimiento de los cambios que se van haciendo.
 
 Lamentablemente el resto de la wiki estará en inglés, ya que es el idioma mas utilizado en desarrollo de software.
-
-Por el momento en esta wiki solo hay paginas creadas a modo de recordatorio, no tienen contenido importante.

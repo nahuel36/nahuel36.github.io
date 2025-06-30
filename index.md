@@ -22,13 +22,9 @@ I develop my own games...
   - DoTween
   - some path-finders
 
-I developed games with other companies too, these have better look.
-<br />In this companies i take experience in console ports, like PS5, Xbox and Switch. 
-<br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
-
 # Working tittles
 
-* **Light and Dark**
+* [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)
@@ -36,13 +32,20 @@ I developed games with other companies too, these have better look.
 
 # Finished or paused projects
 
-* **Focus**
-<br /> Like pong but a wall instead of an enemy, 
-<br /> Adding graphic effects mostly with shaders, trying distract you
+* [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://bitbucket.org/nahuel36/focus/src/master/)
+<br /> Like pong but with a wall instead of an enemy, 
+<br /> Adding graphic effects mostly with shaders, trying to distract you
 
-* **Ninja Zen**
+* [<custom_link>Ninja Zen</custom_link>](https://nahuel36.itch.io/ninja-zen) [(Source Code)](https://bitbucket.org/nahuel36/ninjazen/src/master/)
 <br /> A tap, casual game
-<br /> You have to destroy bottles with our ninja before hits you
+<br /> You have to destroy bottles with our ninja before it hits you
 
-* **Monkey zero: Christmas special**
+* [<custom_link>Monkey zero: Christmas special</custom_link>](https://nahuel36.itch.io/monkey-zero-christmas-special)
 <br /> This is a demo of Monkey Zero project
+
+# Games with companies
+
+I developed games with other companies too, these have better look.
+<br />In this companies I toke experience in console ports, like PS5, Xbox and Switch. 
+<br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
+

@@ -20,5 +20,3 @@ In any case, I do not want it to have tools that Unity already facilitates, such
 Also, I will provide **videos** explaining how to use the tools, and also how to use other free package tools.
 
 I always recommend use git or any version control program.
-
-The pages in this wiki doesn't have any utility yet, they are just reminders.
