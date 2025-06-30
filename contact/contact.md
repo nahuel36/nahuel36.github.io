@@ -8,11 +8,11 @@ description: Send us a mail
 # Send us a message
 
 <form action="https://getform.io/f/avrylzea" method="POST" enctype="multipart/form-data">
-    <input type="text" name="name" placeholder="Name"></textarea>
+    <input type="text" name="name" placeholder="Name">
     <br/>
     <input type="email" name="email" placeholder="Mail">
     <br/>
-    <textarea rows="10" cols="20" name="message" placeholder="Message">
+    <textarea rows="10" cols="20" name="message" placeholder="Message"></textarea>
    <br/>
     <input type="file" name="file">
    <!-- add hidden Honeypot input to prevent spams -->
