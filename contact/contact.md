@@ -7,7 +7,7 @@ description: Send us a mail
 
 
 
-<form action="https://getform.io/f/bronegka" method="POST" enctype="multipart/form-data">
+<form action="https://getform.io/f/avrylzea" method="POST" enctype="multipart/form-data">
    <input type="file" name="file">
    <input type="text" name="full-name" placeholder="Your name">
    <!-- add hidden Honeypot input to prevent spams -->
