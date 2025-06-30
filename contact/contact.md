@@ -7,4 +7,10 @@ description: Send us a mail
 
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduDdva3xmZ-BOYlf9iNvf0XJZJSR6XLAYtvwOSR3RTmBbLqg/viewform?embedded=true" width="640" height="585" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<form action="https://getform.io/f/bronegka" method="POST" enctype="multipart/form-data">
+   <input type="file" name="file">
+   <input type="text" name="full-name" placeholder="Your name">
+   <!-- add hidden Honeypot input to prevent spams -->
+   <input type="hidden" name="_gotcha" style="display:none !important">
+   <button type="submit">Send</button>
+</form>
