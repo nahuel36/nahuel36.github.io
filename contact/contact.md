@@ -12,7 +12,7 @@ description: Send us a mail
     <br/>
     <input type="email" name="email" placeholder="Mail">
     <br/>
-    <textarea rows="10" cols="20" name="message" placeholder="Message"></textarea>
+    <textarea rows="10" cols="25" name="message" placeholder="Message"></textarea>
    <br/>
     <input type="file" name="file">
    <!-- add hidden Honeypot input to prevent spams -->
