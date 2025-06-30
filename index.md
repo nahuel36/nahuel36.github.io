@@ -49,3 +49,6 @@ I developed games with other companies too, these have better look.
 <br />In this companies I toke experience in console ports, like PS5, Xbox and Switch. 
 <br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
+# Contact
+
+If you have something to say, send me a mail with the [contact form]({{ site.baseurl }}/contact/)
