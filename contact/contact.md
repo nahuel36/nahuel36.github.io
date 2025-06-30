@@ -8,7 +8,7 @@ description: Send us a mail
 # Send us a message
 
 <form action="https://getform.io/f/avrylzea" method="POST" enctype="multipart/form-data">
-    <input type="text" name="name" placeholder="Name">
+    <textarea rows="10" cols="10" name="name" placeholder="Name">
     <br/>
     <input type="email" name="email" placeholder="Mail">
     <br/>
