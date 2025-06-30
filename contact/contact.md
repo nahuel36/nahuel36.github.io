@@ -8,6 +8,9 @@ description: Send us a mail
 
 
 <form action="https://getform.io/f/avrylzea" method="POST" enctype="multipart/form-data">
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <input type="text" name="message">
    <input type="file" name="file">
    <input type="text" name="full-name" placeholder="Your name">
    <!-- add hidden Honeypot input to prevent spams -->
