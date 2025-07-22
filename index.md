@@ -32,11 +32,11 @@ I develop my own games...
 
 # Finished or paused projects
 
-* [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://bitbucket.org/nahuel36/focus/src/master/)
+* [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://github.com/nahuel36/focus)
 <br /> Like pong but with a wall instead of an enemy, 
 <br /> Adding graphic effects mostly with shaders, trying to distract you
 
-* [<custom_link>Ninja Zen</custom_link>](https://nahuel36.itch.io/ninja-zen) [(Source Code)](https://bitbucket.org/nahuel36/ninjazen/src/master/)
+* [<custom_link>Ninja Zen</custom_link>](https://nahuel36.itch.io/ninja-zen) [(Source Code)](https://github.com/nahuel36/ninja-zen)
 <br /> A tap, casual game
 <br /> You have to destroy bottles with our ninja before it hits you
 
