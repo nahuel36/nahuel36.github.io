@@ -27,12 +27,12 @@ I develop my own games...
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
 
-* [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)
-<br /> A Point and Click engine, for Unity Asset Store
-
 # Finished or paused projects
 
-* [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://github.com/nahuel36/focus)
+* [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
+<br /> A Point and Click engine, for Unity Asset Store
+
+* [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) 
 <br /> Like pong but with a wall instead of an enemy, 
 <br /> Adding graphic effects mostly with shaders, trying to distract you
 
