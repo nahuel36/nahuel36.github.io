@@ -25,7 +25,7 @@ If you like some game and you can colaborate with Music, Art, Level Design or St
 # Working tittles
 
 * Goticas
-An very joung project, inspired in Gish, LocoRoco and BadLand
+<br /> A very young project, inspired in Gish, LocoRoco and BadLand
 
 # Finished or paused projects
 
