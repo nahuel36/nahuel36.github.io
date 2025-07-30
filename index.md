@@ -7,7 +7,7 @@ title: LAB36
 
 I develop my own games... 
 <br />Not the best look, but hey, I’m just a programmer!.
-<br />You can check in [<custom_link>Itch.io</custom_link>](https://nahuel36.itch.io/)
+If you like some game and you can colaborate with Music, Art, Level Design or Story, [contact us]({{ site.baseurl }}/contact/)
 
 ### I'm experimenting with 
 - **shaders** 
@@ -24,10 +24,13 @@ I develop my own games...
 
 # Working tittles
 
-* [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
-<br /> A top-down puzzle game
+* Goticas
+An very joung project, inspired in Gish, LocoRoco and BadLand
 
 # Finished or paused projects
+
+* [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
+<br /> A top-down puzzle game
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
 <br /> A Point and Click engine, for Unity Asset Store
