@@ -7,7 +7,8 @@ title: LAB36
 
 I develop my own games... 
 <br />Not the best look, but hey, I’m just a programmer!.
-<br />If you like any game and you want to contribute with music, art, level design or story, [contact us]({{ site.baseurl }}/contact/)
+<br />If you like any game and you want to contribute with music, art, level design or story...
+<br />[contact us]({{ site.baseurl }}/contact/)
 
 ### I'm experimenting with 
 - **shaders** 
