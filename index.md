@@ -28,10 +28,11 @@ I develop my own games...
 * Goticas
 <br /> A very young project, inspired in Gish, LocoRoco and BadLand
 
-# Finished or paused projects
-
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
+<br /> Actually working in a level editor ingame
+
+# Finished or paused projects
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
 <br /> A Point and Click engine, for Unity Asset Store
