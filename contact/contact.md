@@ -11,6 +11,8 @@ description: Send us a mail
     <input type="text" name="name" placeholder="Name">
     <br/>
     <input type="email" name="email" placeholder="Mail">
+	<br/>
+	<input type="subject" name="subject" placeholder="Subject">
     <br/>
     <textarea rows="10" cols="25" name="message" placeholder="Message"></textarea>
    <br/>
