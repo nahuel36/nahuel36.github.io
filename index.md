@@ -26,7 +26,7 @@ I develop my own games...
 # Working tittles
 
 * Goticas
-<br /> A very young project, inspired in Gish, LocoRoco and BadLand
+<br /> A very young project, inspired in The Gish, LocoRoco and BadLand
 
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
