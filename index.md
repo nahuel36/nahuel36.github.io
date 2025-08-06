@@ -54,6 +54,13 @@ I developed games with other companies too, these have better look.
 <br />In this companies I toke experience in console ports, like PS5, Xbox and Switch. 
 <br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
+# Workshop project
+I’m giving a one-day game development workshop at Atlántida University in Mar de Ajó.
+
+<br />It’s a single-session event where I’ll be introducing the basics of game development, sharing tools, techniques, and a simple example project. The goal is to give students a hands-on introduction to creating games.
+
+<br />You can download the github example project [<custom_link>here</custom_link>](https://github.com/nahuel36/WorkshopProject)
+
 # Contact
 
 If you have something to say, send me a mail with the [contact form]({{ site.baseurl }}/contact/)
