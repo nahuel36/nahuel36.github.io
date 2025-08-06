@@ -56,12 +56,10 @@ I developed games with other companies too, these have better look.
 
 # Workshop project
 I’m giving a one-day game development workshop at Atlántida University in Mar de Ajó.
-
 <br />It’s a single-session event where I’ll be introducing the basics of game development, sharing tools, techniques, and a simple example project. The goal is to give students a hands-on introduction to creating games.
-
 <br />You can download the github example project [<custom_link>here</custom_link>](https://github.com/nahuel36/WorkshopProject)
-
 <br />The presentation slides are in Spanish and can be viewed [<custom_link>here</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
+<br />For the students, I recommend [<custom_link>this</custom_link>](https://gamedevbeginner.com/input-in-unity-made-easy-complete-guide-to-the-new-system/) tutorial for the new input system.
 
 # Contact
 
