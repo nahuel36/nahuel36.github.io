@@ -61,7 +61,7 @@ I’m giving a one-day game development workshop at Atlántida University in Mar
 
 <br />You can download the github example project [<custom_link>here</custom_link>](https://github.com/nahuel36/WorkshopProject)
 
-<br />The presentation slides are in spanish and can be viewed [<custom_link>here</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
+<br />The presentation slides are in Spanish and can be viewed [<custom_link>here</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 
 # Contact
 
