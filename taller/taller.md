@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Contact
-permalink: /contact/
-description: Send us a mail
+title: Taller
+permalink: /taller/
+description: Descripción del taller en español
 ---
 
 # Taller de Unity
