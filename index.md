@@ -55,6 +55,9 @@ I developed games with other companies too, these have better look.
 <br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
 # Workshop project
+
+[<custom_link>EN ESPAÑOL</custom_link>]({{ site.baseurl }}/taller/)
+
 I’m giving a one-day game development workshop at Atlántida University in Mar de Ajó.
 <br />It’s a single-session event where I’ll be introducing the basics of game development, sharing tools, techniques, and a simple example project. The goal is to give students a hands-on introduction to creating games.
 <br />You can download the github example project [<custom_link>here</custom_link>](https://github.com/nahuel36/WorkshopProject)
