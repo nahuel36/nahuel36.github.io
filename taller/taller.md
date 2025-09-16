@@ -7,7 +7,7 @@ description: Descripción del taller en español
 
 # Taller de Unity
 
-Hace un tiempo dí­ un taller de un dí­a dando una introducción al desarrollo de videojuegos bajo Unity. En la universidad de Mar de Ajó.
+Hace un tiempo dí­ un taller de un dí­a dando una introducción al desarrollo de videojuegos bajo Unity. En la [<custom_link>Universidad Atlántida Argentina</custom_link>](https://atlantida.edu.ar/events/taller-introductorio-de-unity/), sede Mar de Ajó.
 
 <br />Es un taller donde se ve lo básico de desarrollo de videojuegos, compartiendo herramientas, técnicas y ejemplos de codigo relativamente simples. Destinado a darle a los estudiantes una introducción para crear videojuegos. 
 <br />Puedes bajar el ejemplo que se desarrolla en clase [<custom_link>aquí­</custom_link>](https://github.com/nahuel36/WorkshopProject)
