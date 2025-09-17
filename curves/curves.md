@@ -38,13 +38,13 @@ Therefore, we can do more than 2 points, and create different transitions across
 
 # Pre and Post Wrap
 
-We Will focus in post wrap and pre wrap. What happen when the curve exceds The limits? There are 3 behaviours, **clamp, loop and ping-pong**.
+We Will focus in post wrap and pre wrap. What happen when the curve exceds the limits? There are 3 behaviours, **clamp, loop and ping-pong**.
 
-**Clamp** means that Will take the last point AND use that value for eternity. A light turned on that no varies, if we take the first example, speaking of the post wrap.
-Or in The third example The light Will start with 0.5 intensity until The curve start varying, speaking of pre wrap.
+**Clamp** means that Will take the last point and use that value for eternity. A light turned on that no varies, if we take the first example, speaking of the post wrap.
+Or in the third example The light Will start with 0.5 intensity until The curve start varying, speaking of pre wrap.
 
-Then, we Will see how **Loop** works. This just repeat infinitelly The same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that Will take 0 intensity and linearly increments to 1 again. And so on.
-The same Will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then Will be preceded with a curve from 0 to 1.
+Then, we will see how **Loop** works. This just repeat infinitelly The same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that Will take 0 intensity and linearly increments to 1 again. And so on.
+The same will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then Will be preceded with a curve from 0 to 1.
 
 Finally, how works **Ping Pong**? Similar to Loop, but mirroring The shape every Time. For example, if The curves goes from (0,0) to (1,1), The next Time Will go to (1,1) to (0,0). The next Time Will mirror again, and so on.
 
