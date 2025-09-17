@@ -10,7 +10,7 @@ description: How to use AC and LERP in my Level Editor
 I decided to use **Animation Curves** and **Lerp** in my Level Editor.
 <br/>The problem, not anyone knows how it works, but i will try explain it in this doc.
 <br/><br/>
-One use of Animation Curves is to describe how something **varies over time**.
+One **use** of Animation Curves is to describe how something **varies over time**.
 <br/>Lets to go to an example
 
 # Intensity with linear change
