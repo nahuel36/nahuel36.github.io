@@ -26,7 +26,7 @@ But... What mean the **vertical axe**? Or... How the **shape** of the line of th
 <br/><br/>If you draw a **straight line** from (0,0) to (1,1), then that means that The light will **start off**, and **gradually** and **uniformly** Will increase to reach, in one second, an intensity of 1, finally.
 <br/>![First Curve](./curve1.png "Local Image")
 
-<br/><br/>Furthermore, if the straight line goes from (0,0) to (2,1) the light will vary from off to intensity 1, but this time the transition will last 2 seconds, because The line measure 2 in the **horizontal** axe.
+<br/><br/>Furthermore, if the straight line goes from (0,0) to (2,1) the light will vary from off to intensity 1, but this time the transition will last 2 seconds, because the line measure 2 in the **horizontal** axe.
 <br/>![Second Curve](./curve2.png "Local Image")
 
 <br/><br/>If you want a variation of light starting half iluminated that uniformly decrease to quarter iluminated, and everything goes from the second 0,5 and 1,5 seconds. Then you have to draw a curve that goes from point (0.5, 0.5) to the point (1.5,0.25) 
@@ -78,4 +78,4 @@ Using the idea of LERP. You can do rotation variation too. Only that the value 0
 <br/>For example, to rotate continuously 360 degrees, you can set up angle 0 to 0 and angle 1 to 360. And in the curve make a straight line between (0,0) and (1,1) if you want a complete rotation in 1 second (by example).
 <br/>You can put another angle, and is not necessary and angle 0 minor to angle 1, that's not important to LERP. You can slowly go from (0,0) to (1.25,0.5) (from angle 0 to half of angle 1 in 1.25 seconds) then wait 3 seconds in the same value (completely horizontal line) this means go to (4.25, 0.5), then go to (6,0.75) (75% of angle 1 in 1.75 seconds) faster, and so on.
 
-With complex movements you can build an easy animation that confuse the player, or make more easy too, it's a very powerful tool. Because of that I decided use it, affording the dificulty learn line.
+With complex movements you can build an easy animation that confuse the player, or make more easy to play too, it's a very powerful tool. Because of that I decided use it, affording the dificulty learn curve.
