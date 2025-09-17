@@ -33,8 +33,8 @@ But... What mean the **vertical axe**? Or... How the **shape** of the line of th
 <br/>![Third Curve](./curve3.png "Local Image")
 
 <br/><br/>Understood? Pay attention to the **points** **numbers**, remember, **first** number is **time**, **second** number is the **animation variable** (light intensity in this case).
-In this case, seconds not start from zero, then thats when The pre wrap configuration takes important. (I will explain in a bit how it works)
-Therefore, we can do more than 2 points, and create different transitions across the time.
+<br/>In this case, seconds not start from zero, then that's when the pre wrap configuration takes important meaning. (I will explain in a bit how it works)
+<br/>Therefore, we can do more than 2 points, and create different transitions across the time.
 
 # Pre and Post Wrap
 
