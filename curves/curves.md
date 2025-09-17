@@ -50,6 +50,8 @@ The same will happen with prewrap configuration, but before the first point of t
 
 Finally, how works **Ping Pong**? Similar to Loop, but mirroring The shape every Time. For example, if The curves goes from (0,0) to (1,1), The next Time Will go to (1,1) to (0,0). The next Time Will mirror again, and so on.
 
+<br/>![PingPong example](./pingpong.gif "Local Image")
+
 Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
 But, in Ping Pong the light raise from 0 to 1, then decrease from 1 to 0, and so on.
 Sometimes Ping Pong Is More elegant Solution.
