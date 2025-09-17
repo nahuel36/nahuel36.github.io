@@ -46,6 +46,8 @@ Or in the third example The light Will start with 0.5 intensity until The curve 
 Then, we will see how **Loop** works. This just repeat infinitelly The same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that Will take 0 intensity and linearly increments to 1 again. And so on.
 The same will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then Will be preceded with a curve from 0 to 1.
 
+<br/>![Loop example](./loop.gif "Local Image")
+
 Finally, how works **Ping Pong**? Similar to Loop, but mirroring The shape every Time. For example, if The curves goes from (0,0) to (1,1), The next Time Will go to (1,1) to (0,0). The next Time Will mirror again, and so on.
 
 Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
@@ -59,8 +61,8 @@ But, for now, we talked of straight lines. What happen with Curved lines?
 <br/>This Is the juicy part, because here starts you creativity, you Will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
 <br/><br/>
 For example, imagine a conection from (0,0) to (1,1) again, bit with this form
-<br/>That means that the initial variation Will slowly change, but in The end Will change with a lot of Speed. Did you understand this with the shape? A more horizontal líne means slow change, and a More vertical líne means fast change. Then The variation Is not linear anymore, AND adds More natural movements.
-<br/><br/>For example you can make a light slowly turn on, but when take half,  decrease to quarter, anda then go fast to Max intensity, then abruptly go to 0 and stand this a While, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
+<br/>That means that the initial variation Will slowly change, but in The end Will change with a lot of Speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical líne means fast change. Then the variation is not linear anymore, and adds more natural movements.
+<br/><br/>For example you can make a light slowly turn on, but when take half, decrease to quarter, anda then go fast to max intensity, then abruptly go to 0 and stand this a while, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
 
 # Other animations
 
