@@ -54,8 +54,8 @@ Finally, how works **Ping Pong**? Similar to Loop, but mirroring the shape every
 
 Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
 But, in Ping Pong the light raise from 0 to 1, then decrease from 1 to 0, and so on.
-Sometimes Ping Pong Is More elegant Solution.
-But, if you design a curve that start and ends in the same intensity, then you Will use Loop probably.
+Sometimes Ping Pong is more elegant solution.
+But, if you design a curve that start and ends in the same intensity, then you will use Loop probably.
 
 # Intensity with non linear change
 
