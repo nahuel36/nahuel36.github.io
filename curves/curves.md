@@ -42,7 +42,7 @@ We will focus in post wrap and pre wrap. What happen when the curve exceds the l
 
 **Clamp** means that will take the last point and use that value for eternity. 
 <br/>If we take the first example (from (0,0) to (1,1)), after 1 second, the light will remain turned on. This is a clamp post wrap.
-<br/>Or, in the third example ((0.5,0.5) to (1.5, 0.25)), the light eill start in time zero with 0.5 intensity until The curve start varying (in time 0.5). This is a clamp pre wrap.
+<br/>Or, in the third example ((0.5,0.5) to (1.5, 0.25)), the light will start in time zero with 0.5 intensity until the curve start varying (in time 0.5). This is a clamp pre wrap.
 
 Then, we will see how **Loop** works. This just repeat infinitelly the same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that will take 0 intensity and linearly increments to 1 again. And so on.
 The same will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then will be preceded with a curve from 0 to 1.
