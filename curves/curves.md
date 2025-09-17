@@ -60,7 +60,7 @@ But, if you design a curve that start and ends in the same intensity, then you w
 # Intensity with non linear change
 
 But, for now, we talked of straight lines. What happen with Curved lines? 
-<br/>This Is the juicy part, because here starts you creativity, you Will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
+<br/>This Is the juicy part, because here starts your creativity, you Will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
 <br/><br/>
 For example, imagine a conection from (0,0) to (1,1) again, bit with this form
 <br/>That means that the initial variation Will slowly change, but in The end Will change with a lot of Speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical líne means fast change. Then the variation is not linear anymore, and adds more natural movements.
