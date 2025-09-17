@@ -7,24 +7,28 @@ description: How to use AC and LERP in my Level Editor
 
 # Introduction
 
-I decided to use Animation Curves and Lerp in my Level Editor
-
-The problem, not anyone knows how it works, but i will try explain it in this video.
-
-One use of Animation Curves is to describe how something varies along time.
-
-Lets to go to an example
+I decided to use **Animation Curves** and **Lerp** in my Level Editor.
+<br/>The problem, not anyone knows how it works, but i will try explain it in this doc.
+<br/><br/>
+One use of Animation Curves is to describe how something **varies over time**.
+<br/>Lets to go to an example
 
 # Intensity with linear change
 
-In my Level Editor, you can describe how intensity of light varies in Time.
-If you draw a curve that, horizontally, goes from 0 to 1, the variation of intensity will last one second. The behaviour after The first second will depend of The configuration of post wrap (we will talk about this, later).
-Then, you now already know what mean the horizontal axe of the curve (Time in seconds).
-But... What mean the vertical axe? Or... How the shape of the line of the curve affects The uses of a Animation curve? Well, think in first place an intensity of light. If the first point of the line matches vertically with the number 0, that means that The light Will be off. And 1 means that the light Will be on a strong intensity. If you draw a straight line from (0,0) to (1,1), then that means that The light Will start off, and gradually and uniformly Will increase to reach, in one second, an intensity of 1, finally.
-Furthermore , if the straight line goes from (0,0) to (2,1) the light will vary from off to intensity 1, but this time the transition will last 2 seconds, because The line measure 2 in the horizontal axe.
-If you want a variation of light starting half iluminated that uniformly decrease to quarter iluminated, and everything goes from the second 0,5 and 1,5 seconds. Then you have to draw a curve that goes from point (0.5, 0.5) to the point (1.5,0.25) uderstood? Pay attention to the points numbers, remember, first number Is time, second number Is the animation variable (light intensity in this case).
+In my Level Editor, you can describe how intensity of light varies in time.
+<br/>If you draw a curve that, horizontally, goes from 0 to 1, the variation of intensity will last one second. 
+<br/>The behaviour after the first second will depend of the configuration of post wrap (we will talk about this, later).
+<br/><br/>
+Then, you now already know what mean the horizontal axe of the curve (time in seconds).
+But... What mean the **vertical axe**? Or... How the **shape** of the line of the curve affects the uses of a animation curve? 
+<br/>Well, think in first place an intensity of light. 
+<br/>If the first point of the line matches vertically with the number 0, that means that the light will be **off**. And 1 means that the light Will be on a **strong** intensity. 
+<br/><br/>If you draw a **straight line** from (0,0) to (1,1), then that means that The light will **start off**, and **gradually** and **uniformly** Will increase to reach, in one second, an intensity of 1, finally.
+<br/><br/>Furthermore, if the straight line goes from (0,0) to (2,1) the light will vary from off to intensity 1, but this time the transition will last 2 seconds, because The line measure 2 in the **horizontal** axe.
+<br/><br/>If you want a variation of light starting half iluminated that uniformly decrease to quarter iluminated, and everything goes from the second 0,5 and 1,5 seconds. Then you have to draw a curve that goes from point (0.5, 0.5) to the point (1.5,0.25) 
+<br/><br/>Understood? Pay attention to the **points** **numbers**, remember, **first** number is **time**, **second** number is the **animation variable** (light intensity in this case).
 In this case, seconds not start from zero, then thats when The pre wrap configuration takes important. (I will explain in a bit how it works)
-Therefore, we can do more than 2 points, and create different transitions across The Time.
+Therefore, we can do more than 2 points, and create different transitions across the time.
 
 # Pre and Post Wrap
 
