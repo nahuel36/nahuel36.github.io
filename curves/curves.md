@@ -27,22 +27,26 @@ But... What mean the **vertical axe**? Or... How the **shape** of the line of th
 <br/>![First Curve](./curve1.png "Local Image")
 
 <br/><br/>Furthermore, if the straight line goes from (0,0) to (2,1) the light will vary from off to intensity 1, but this time the transition will last 2 seconds, because The line measure 2 in the **horizontal** axe.
+<br/>![Second Curve](./curve2.png "Local Image")
+
 <br/><br/>If you want a variation of light starting half iluminated that uniformly decrease to quarter iluminated, and everything goes from the second 0,5 and 1,5 seconds. Then you have to draw a curve that goes from point (0.5, 0.5) to the point (1.5,0.25) 
+<br/>![Third Curve](./curve3.png "Local Image")
+
 <br/><br/>Understood? Pay attention to the **points** **numbers**, remember, **first** number is **time**, **second** number is the **animation variable** (light intensity in this case).
 In this case, seconds not start from zero, then thats when The pre wrap configuration takes important. (I will explain in a bit how it works)
 Therefore, we can do more than 2 points, and create different transitions across the time.
 
 # Pre and Post Wrap
 
-We Will focus in post wrap and pre wrap. What happen when The curve exceds The limits? There are 3 behaviours, clamp, loop and ping-pong.
+We Will focus in post wrap and pre wrap. What happen when the curve exceds The limits? There are 3 behaviours, **clamp, loop and ping-pong**.
 
-Clamp means that Will take the last point AND use that value for eternity. A light turned on that no varies, if we take the first example, speaking of the post wrap.
+**Clamp** means that Will take the last point AND use that value for eternity. A light turned on that no varies, if we take the first example, speaking of the post wrap.
 Or in The third example The light Will start with 0.5 intensity until The curve start varying, speaking of pre wrap.
 
-Then, we Will see how Loop works. This just repeat infinitelly The same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that Will take 0 intensity and linearly increments to 1 again. And so on.
+Then, we Will see how **Loop** works. This just repeat infinitelly The same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that Will take 0 intensity and linearly increments to 1 again. And so on.
 The same Will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then Will be preceded with a curve from 0 to 1.
 
-How works Ping Pong? Similar to Loop, but mirroring The shape every Time. For example, if The curves goes from (0,0) to (1,1), The next Time Will go to (1,1) to (0,0). The next Time Will mirror again, and so on.
+Finally, how works **Ping Pong**? Similar to Loop, but mirroring The shape every Time. For example, if The curves goes from (0,0) to (1,1), The next Time Will go to (1,1) to (0,0). The next Time Will mirror again, and so on.
 
 Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
 But, in Ping Pong the light raise from 0 to 1, then decrease from 1 to 0, and so on.
@@ -51,25 +55,27 @@ But, if you design a curve that start and ends in the same intensity, then you W
 
 # Intensity with non linear change
 
-But, for now, we talked of straight lines. What happen with Curved lines? This Is the juicy part, because here starts you creativity, you Will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
+But, for now, we talked of straight lines. What happen with Curved lines? 
+<br/>This Is the juicy part, because here starts you creativity, you Will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
+<br/><br/>
 For example, imagine a conection from (0,0) to (1,1) again, bit with this form
-That means that the initial variation Will slowly change, but in The end Will change with a lot of Speed. Did you understand this with the shape? A more horizontal líne means slow change, and a More vertical líne means fast change. Then The variation Is not linear anymore, AND adds More natural movements.
-For example you can make a light slowly turn on, but when take half,  decrease to quarter, anda then go fast to Max intensity, then abruptly go to 0 and stand this a While, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
+<br/>That means that the initial variation Will slowly change, but in The end Will change with a lot of Speed. Did you understand this with the shape? A more horizontal líne means slow change, and a More vertical líne means fast change. Then The variation Is not linear anymore, AND adds More natural movements.
+<br/><br/>For example you can make a light slowly turn on, but when take half,  decrease to quarter, anda then go fast to Max intensity, then abruptly go to 0 and stand this a While, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
 
 # Other animations
 
 Ok. We are ready to jump to the next level, LERP.
-Lerp transforms values that goes from 0 to 1, to a Min to Max value, or value 0 to value 1, as i named in the level editor. I prefer this names because not always the names go from min to Max. But always go from value 0 and 1 in the vertical axe of the curve.
-
+<br/>Lerp transforms values that goes from 0 to 1, to a Min to Max value, or value 0 to value 1, as i named in the level editor. I prefer this names because not always the names go from min to Max. But always go from value 0 and 1 in the vertical axe of the curve.
+<br/><br/>
 Then, think that you have to make an vertical scale of a wall, you will need a scale from 1 to 5. For some reason Is difficult configurate the curve editor for vertical values beyond 2, that Is the reason that i use LERP. You have to setup value 0 and value 1 in the animation properties, to 1 and 5 respectively.
-Then you do it, simply draw a curve between (0,1) to (1,1) and the size will change from 1 to 5 along the time 0 to 1 seconds. Thanks to LERP.
-LERP asigns variables linearly. That means if value 1 is 5, value 0.5 is 2.5, and value 2 is 10.
-Again, with this you can imagine whatever you want. You can decrease size, you can change slowly, and fastly. You can rice and decrease in the same curve with more than 2 points, and move and rotate lines as you want. Your creativity is the limit.
+Then you do it, simply draw a curve between (0,1) to (1,1) and the size will change from 1 to 5, and will last 1 second. Thanks to LERP.
+<br/><br/>LERP asigns variables linearly. That means if value 1 is 5, value 0.5 is 2.5, and value 2 is 10.
+<br/>Again, with this you can imagine whatever you want. You can decrease size, you can change slowly, and fastly. You can rice and decrease in the same curve with more than 2 points, and move and rotate lines as you want. Your creativity is the limit.
 
 # Rotate animation
 
 Using the idea of LERP. You can do rotation variation too. Only that the value 0 will be an angle and value 1 will be another angle.
-For example, to rotate continuously 360 degrees, you can set up angle 0 to 0 and angle 1 to 360. And in the curve make a straight line between (0,0) and (1,1) if you want a complete rotation in 1 second (by example).
-You can put another angle, and is not necessary and angle 0 minor to angle 1, that's not important to LERP. You can slowly go from (0,0) to (1.25,0.5) (from angle 0 to half of angle 1 in 1.25 seconds) then wait 3 seconds in the same value (completely horizontal line) this means go to (4.25, 0.5), then go to (6,0.75) (75% of angle 1 in 1.75 seconds) faster, and so on.
+<br/>For example, to rotate continuously 360 degrees, you can set up angle 0 to 0 and angle 1 to 360. And in the curve make a straight line between (0,0) and (1,1) if you want a complete rotation in 1 second (by example).
+<br/>You can put another angle, and is not necessary and angle 0 minor to angle 1, that's not important to LERP. You can slowly go from (0,0) to (1.25,0.5) (from angle 0 to half of angle 1 in 1.25 seconds) then wait 3 seconds in the same value (completely horizontal line) this means go to (4.25, 0.5), then go to (6,0.75) (75% of angle 1 in 1.75 seconds) faster, and so on.
 
 With complex movements you can build an easy animation that confuse the player, or make more easy too, it's a very powerful tool. Because of that I decided use it, affording the dificulty learn line.
