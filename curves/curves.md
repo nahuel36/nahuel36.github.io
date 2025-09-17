@@ -22,8 +22,8 @@ In my Level Editor, you can describe how intensity of light varies in time.
 Then, you now already know what mean the horizontal axe of the curve (time in seconds).
 But... What mean the **vertical axe**? Or... How the **shape** of the line of the curve affects the uses of a animation curve? 
 <br/>Well, think in first place an intensity of light. 
-<br/>If the first point of the line matches vertically with the number 0, that means that the light will be **off**. And 1 means that the light Will be on a **strong** intensity. 
-<br/><br/>If you draw a **straight line** from (0,0) to (1,1), then that means that The light will **start off**, and **gradually** and **uniformly** Will increase to reach, in one second, an intensity of 1, finally.
+<br/>If the first point of the line matches vertically with the number 0, that means that the light will be **off**. And 1 means that the light will be on a **strong** intensity. 
+<br/><br/>If you draw a **straight line** from (0,0) to (1,1), then that means that the light will **start off**, and **gradually** and **uniformly** Will increase to reach, in one second, an intensity of 1, finally.
 <br/>![First Curve](./curve1.png "Local Image")
 
 <br/><br/>Furthermore, if the straight line goes from (0,0) to (2,1) the light will vary from off to intensity 1, but this time the transition will last 2 seconds, because the line measure 2 in the **horizontal** axe.
