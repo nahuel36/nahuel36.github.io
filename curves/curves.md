@@ -10,7 +10,7 @@ description: How to use AC and LERP in my Level Editor
 I decided to use **Animation Curves** and **Lerp** in our Level Editor.
 <br/>The problem, not anyone knows how it works, but i will try explain it in this doc.
 <br/><br/>
-One use of Animation Curves is to describe how something **varies over time**.
+One **use** of Animation Curves is to describe how something **varies over time**.
 <br/>Lets to go to an example
 
 # Intensity with linear change
@@ -61,10 +61,11 @@ But, if you design a curve that start and ends in the same intensity, then you w
 # Intensity with non linear change
 
 But, for now, we talked of straight lines. What happen with Curved lines? 
-<br/>This Is the juicy part, because here starts your creativity, you Will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
+<br/>This Is the juicy part, because here starts your creativity, you will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
 <br/><br/>
-For example, imagine a conection from (0,0) to (1,1) again, bit with this form
-<br/>That means that the initial variation Will slowly change, but in The end Will change with a lot of Speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical líne means fast change. Then the variation is not linear anymore, and adds more natural movements.
+For example, imagine a conection from (0,0) to (1,1) again, but with this form
+<br/>![complex example curve](./curve4.png "Local Image")
+<br/>That means that the initial variation will slowly change, but in the end will change with a lot of speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical curve means fast change. Then the variation is not linear anymore, and adds more natural movements.
 <br/><br/>For example you can make a light slowly turn on, but when take half, decrease to quarter, anda then go fast to max intensity, then abruptly go to 0 and stand this a while, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
 
 # Other animations
@@ -84,3 +85,10 @@ Using the idea of LERP. You can do rotation variation too. Only that the value 0
 <br/>You can put another angle, and is not necessary and angle 0 minor to angle 1, that's not important to LERP. You can slowly go from (0,0) to (1.25,0.5) (from angle 0 to half of angle 1 in 1.25 seconds) then wait 3 seconds in the same value (completely horizontal line) this means go to (4.25, 0.5), then go to (6,0.75) (75% of angle 1 in 1.75 seconds more) faster, and so on.
 
 With complex movements you can build an easy animation that confuse the player, or make more easy to play too, it's a very powerful tool. Because of that I decided use it, affording the dificulty learn curve.
+
+# Complex animation example
+
+In this example, we will see a rotation animation. With angle 0 set to 0, and angle 1 set to 90 degrees. With a slow start but a fast finish, using three points. And with a ping pong end wrap. Here are the curve and the motion gif.
+<br/>![complex example curve](./curve4.png "Local Image")
+<br/>![complex example gif](./rotation.gif "Local Image")
+
