@@ -25,9 +25,6 @@ I develop my own games...
 
 # Working tittles
 
-* Goticas
-<br /> A very young project, inspired in The Gish, LocoRoco and BadLand
-
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
 <br /> Actually working in a level editor ingame, you can see how we are implementing animations curves [here]({{ site.baseurl }}/curves/)
