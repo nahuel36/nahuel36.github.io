@@ -34,7 +34,7 @@ I develop my own games...
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
 <br /> A Point and Click engine, for Unity Asset Store
 <details>
-<br /><summary>What i've learned in this project (click to expand)</summary>
+<summary><br />What i've learned in this project (click to expand)</summary>
  * ui-toolkit
  * node graphs
  * some pathfinders
