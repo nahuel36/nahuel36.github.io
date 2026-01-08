@@ -19,7 +19,7 @@ I develop my own games...
   - ui-toolkit
   - timeline window
   - node graphs
-- **Data base**
+- **Database**
   - uploading level data, scores, favorites and rank in Supabase   
 - **and Assets like**
   - DoTween
