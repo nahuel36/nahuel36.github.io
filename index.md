@@ -10,6 +10,13 @@ I develop my own games...
 <br />If you like any game and you want to contribute with music, art, level design or story...
 <br />[contact us]({{ site.baseurl }}/contact/)
 
+<details>
+<summary>Click to expand</summary>
+
+This is the content of the collapsible section. You can include any Markdown-formatted text, lists, or code here.
+
+</details>
+
 ### I'm experimenting with 
 - **shaders** 
   - Shader Graph
