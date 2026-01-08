@@ -35,9 +35,9 @@ I develop my own games...
 <br /> A Point and Click engine, for Unity Asset Store
 <details>
 <summary><br />What i've learned in this project (click to expand)</summary>
- * ui-toolkit
- * node graphs
- * some pathfinders
+* ui-toolkit
+* node graphs
+* some pathfinders
 </details>
 
 
