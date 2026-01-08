@@ -10,13 +10,6 @@ I develop my own games...
 <br />If you like any game and you want to contribute with music, art, level design or story...
 <br />[contact us]({{ site.baseurl }}/contact/)
 
-<details>
-<summary>Click to expand</summary>
-
-This is the content of the collapsible section. You can include any Markdown-formatted text, lists, or code here.
-
-</details>
-
 ### I'm experimenting with 
 - **shaders** 
   - Shader Graph
@@ -40,6 +33,13 @@ This is the content of the collapsible section. You can include any Markdown-for
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
 <br /> A Point and Click engine, for Unity Asset Store
+<details>
+<summary>What i've learned in this project (click to expand)</summary>
+*ui-toolkit
+*node graphs
+*some pathfinders
+</details>
+
 
 * [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://github.com/nahuel36/focus)
 <br /> Like pong but with a wall instead of an enemy, 
