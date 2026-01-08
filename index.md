@@ -18,7 +18,9 @@ I develop my own games...
   - unit-testing
   - ui-toolkit
   - timeline window
-  - node graphs 
+  - node graphs
+- **Data base**
+  - uploading level data, scores, favorites and rank in Supabase   
 - **and Assets like**
   - DoTween
   - some path-finders
@@ -33,12 +35,6 @@ I develop my own games...
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
 <br /> A Point and Click engine, for Unity Asset Store
-<details>
-<summary>What i've learned in this project (click to expand)</summary>
-<br />* ui-toolkit
-<br />* node graphs
-<br />* some pathfinders
-</details>
 
 
 * [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://github.com/nahuel36/focus)
