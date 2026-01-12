@@ -10,5 +10,5 @@ description: You mail has confirmed
 Your mail has confirmed.
 <br/>Now you can reload your game, and login with your account normally.
 <br/><br/>
-<br/>You can browse our page too.
+<br/>If you like, you can browse our page too.
 <br/>Greetings
