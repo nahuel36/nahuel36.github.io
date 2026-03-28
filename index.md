@@ -37,7 +37,6 @@ I develop my own games...
 * [<custom_link>Reina: La mascara oculta</custom_link>](https://fhntop.itch.io/reina-la-mascara-oculta)
 <br /> A game for the Global Game Jam 2026, maked with a team
 <br /> Its and adventure graphic in 3rd person, with mistery and fun
-<br /> Coming soon a translation to english language
 
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
