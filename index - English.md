@@ -7,6 +7,8 @@ permalink: /introEng/
 
 # Welcome!
 
+[<custom_link>EN ESPAÑOL</custom_link>]({{ site.baseurl }})
+
 I develop my own games... 
 <br />Not the best look, but hey, I’m just a programmer!.
 <br />If you like any game and you want to contribute with music, art, level design or story...
@@ -63,8 +65,6 @@ I developed games with other companies too, these have better look.
 <br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
 # Workshop project
-
-[<custom_link>EN ESPAÑOL</custom_link>]({{ site.baseurl }}/taller/)
 
 I’m giving a one-day game development workshop at [<custom_link>Atlántida Argentina University</custom_link>](https://atlantida.edu.ar/events/taller-introductorio-de-unity/) in Mar de Ajó, Buenos Aires.
 <br />It’s a single-session event where I’ll be introducing the basics of game development, sharing tools, techniques, and a simple example project. The goal is to give students a hands-on introduction to creating games.

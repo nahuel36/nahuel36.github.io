@@ -3,7 +3,7 @@ layout: default
 title: LAB36
 ---
 
-# Bienvenido!
+# ¡Bienvenido!
 
 <br /> [<custom_link>English version</custom_link>]({{ site.baseurl }}/introEng/)
 
