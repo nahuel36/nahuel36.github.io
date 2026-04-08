@@ -7,10 +7,10 @@ title: LAB36
 
 <br /> [<custom_link>English version</custom_link>]({{ site.baseurl }}/introEng/)
 
-Este es un estudio de videojuegos humilde de un programador, algunos proyectos hechos con otras personas también. 
-Tengo mas de 10 años de experiencia, trabajé para distintas empresas, 
+<br /> Este es un estudio de videojuegos humilde de un programador, algunos proyectos hechos con otras personas también. 
+<br /> Tengo mas de 10 años de experiencia, trabajé para distintas empresas, 
 si quieres ver que juegos hice con estas ve a mi linkedin. 
-Actualmente estoy dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina.
+<br /> Actualmente estoy dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina.
 
 <br />Si te gusta algún juego y quieres contribuir de alguna forma, como diseño, arte, consejos, etc...
 <br />[contáctanos]({{ site.baseurl }}/contact/)
