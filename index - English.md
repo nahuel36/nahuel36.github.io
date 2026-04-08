@@ -7,7 +7,7 @@ permalink: /introEng/
 
 # Welcome!
 
-[<custom_link>EN ESPAÑOL</custom_link>]({{ site.baseurl }})
+[<custom_link>EN ESPAÑOL</custom_link>]({{ site.baseurl }}/index/)
 
 I develop my own games... 
 <br />Not the best look, but hey, I’m just a programmer!.
