@@ -3,73 +3,81 @@ layout: default
 title: LAB36
 ---
 
-# Welcome!
+# Bienvenido!
 
-I develop my own games... 
-<br />Not the best look, but hey, I’m just a programmer!.
-<br />If you like any game and you want to contribute with music, art, level design or story...
-<br />[contact us]({{ site.baseurl }}/contact/)
+<br /> [<custom_link>English version</custom_link>]({{ site.baseurl }}/introEng/)
 
-### I'm experimenting with 
+Este es un estudio de videojuegos humilde de un programador, algunos proyectos hechos con otras personas también. 
+Tengo mas de 10 años de experiencia, trabajé para distintas empresas, 
+si quieres ver que juegos hice con estas ve a mi linkedin. 
+Actualmente estoy dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina.
+
+<br />Si te gusta algún juego y quieres contribuir de alguna forma, como diseño, arte, consejos, etc...
+<br />[contáctanos]({{ site.baseurl }}/contact/)
+
+### En estos proyectos experimenté/experimento con...
 - **shaders** 
   - Shader Graph
   - HLSL
-- **Unity tools like**
+- **herramientas de Unity como**
   - unit-testing
   - ui-toolkit
   - timeline window
-  - node graphs
-- **Database**
-  - uploading level data, scores, favorites and rank in Supabase   
-- **and Assets like**
+  - gráficos con nodos
+- **Bases de datos**
+  - subiendo datos de un nivel, puntajes, niveles favoritos y ranking .
+  - todo esto usando Supabase   
+- **y Assets como**
   - DoTween
-  - some path-finders
+  - algunos path-finders
 
-# Working tittles
+# Juegos en los que estoy trabajando
 
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
-<br /> A top-down puzzle game
-<br /> Actually working in a level editor ingame, you can see how we are implementing animations curves [here]({{ site.baseurl }}/curves/)
+<br /> Un juego de puzzles de vista TopDown, con 2 integrantes colaborando también.
+<br /> Actualmente trabajando en un editor de niveles para los jugadores, en el que implementé uso de Animation Curves, puedes verlo [aquí­] site.baseurl }}/curves/)
 
+* El Legado del Silencio
+<br /> Solo puedo decir que es una aventura gráfica, tengo prohibido decir más
+<br /> En conjunto con un colaborador más
 
-# Finished or paused projects
+# Juegos pausados/terminados
 
 * [<custom_link>Reina: La mascara oculta</custom_link>](https://fhntop.itch.io/reina-la-mascara-oculta)
-<br /> A game for the Global Game Jam 2026, maked with a team
-<br /> Its and adventure graphic in 3rd person, with mistery and fun
+<br /> Un juego hecho inicialmente para la Global Game Jam 2026, con un equipo de trabajo
+<br /> Es una aventura gráfica en 3era persona, con un poco de misterio y diversión
 
 
 * [<custom_link>Artemito</custom_link>]({{ site.baseurl }}/artemito/)[(Source Code)](https://github.com/nahuel36?tab=repositories&q=artemito&type=&language=&sort=)
-<br /> A Point and Click engine, for Unity Asset Store
+<br /> Un engine de aventuras gráficas, pensado para vender como Asset en la AssetStore
 
 
 * [<custom_link>Focus</custom_link>](https://nahuel36.itch.io/focus) [(Source Code)](https://github.com/nahuel36/focus)
-<br /> Like pong but with a wall instead of an enemy, 
-<br /> Adding graphic effects mostly with shaders, trying to distract you
+<br /> Como el pong, pero vertical, y con una pared en vez del enemigo, 
+<br /> El objetivo es durar lo más posible
+<br /> Tiene efectos gráficos hechos principalmente con shaders, que tratan de distraerte
 
 * [<custom_link>Ninja Zen</custom_link>](https://nahuel36.itch.io/ninja-zen) [(Source Code)](https://github.com/nahuel36/ninja-zen)
-<br /> A tap, casual game
-<br /> You have to destroy bottles with our ninja before it hits you
+<br /> Un juego casual de tapeo, como si fuera un guitar hero
+<br /> Debes destruir las botellas en el momento justo antes de que hieran a tu personaje
 
 * [<custom_link>Monkey zero: Christmas special</custom_link>](https://nahuel36.itch.io/monkey-zero-christmas-special)
-<br /> This is a demo of Monkey Zero project
+<br /> Un demo del juego Monkey Island Zero, un proyecto de hace muchos años
 
-# Games with companies
+# Trabajo hecho en empresas
 
-I developed games with other companies too, these have better look.
-<br />In this companies I toke experience in console ports, like PS5, Xbox and Switch. 
-<br />You can check it in my [<custom_link>LinkedIn page</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
+Como ya dije, trabajé para algunas companí­as
+<br />Aprendi muchas cosas, entre ellas, hacer ports para las consolas de Sony, Nintendo y Microsoft. 
+<br />Podes ver más detalles en mi [<custom_link>página de LinkedIn</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
-# Workshop project
+# Taller de Unity
 
-[<custom_link>EN ESPAÑOL</custom_link>]({{ site.baseurl }}/taller/)
+Como dije al principio, estoy dando un taller de desarrollo de videojuegos. 
+Esto por el momento es en la Universidad Atlántida, de Mar de Ajó. Es un taller sincrónico virtual de 7 clases, puede inscribirse cualquiera, empieza en Mayo de 2026.
+En un principio dí­ este taller en un solo dí­a, y puedo pasarte el material que usé aquella vez: 
+<br /> [<custom_link>Proyecto en GitHub</custom_link>](https://github.com/nahuel36/WorkshopProject)
+<br /> [<custom_link>Diapositivas</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 
-I’m giving a one-day game development workshop at [<custom_link>Atlántida Argentina University</custom_link>](https://atlantida.edu.ar/events/taller-introductorio-de-unity/) in Mar de Ajó, Buenos Aires.
-<br />It’s a single-session event where I’ll be introducing the basics of game development, sharing tools, techniques, and a simple example project. The goal is to give students a hands-on introduction to creating games.
-<br />You can download the github example project [<custom_link>here</custom_link>](https://github.com/nahuel36/WorkshopProject)
-<br />The presentation slides are in Spanish and can be viewed [<custom_link>here</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
-<br />For the students, I recommend [<custom_link>this</custom_link>](https://gamedevbeginner.com/input-in-unity-made-easy-complete-guide-to-the-new-system/) tutorial for the new input system.
+# Contacto
 
-# Contact
-
-If you have something to say, send me a mail with the [contact form]({{ site.baseurl }}/contact/)
+Si quieres comunicarte por alguna razón, mandame un mail por el [formulario]({{ site.baseurl }}/contact/)
