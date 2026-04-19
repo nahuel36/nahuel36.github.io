@@ -74,7 +74,7 @@ Como ya dije, trabajé para algunas companí­as
 
 Como dije al principio, estoy dando un taller de desarrollo de videojuegos. 
 Esto por el momento es en la Universidad Atlántida, de Mar de Ajó. Es un taller sincrónico virtual de 7 clases, puede inscribirse cualquiera, empieza en Mayo de 2026. [<custom_link>LINK DE INSCRIPCION</custom_link>](https://atlantida.edu.ar/events/taller-de-desarrollo-de-videojuegos-con-unity-2/)
-En un principio dí­ este taller en un solo dí­a, y puedo pasarte el material que usé aquella vez: 
+<br /> En un principio dí­ este taller en un solo dí­a, y puedo pasarte el material que usé aquella vez: 
 <br /> [<custom_link>Proyecto en GitHub</custom_link>](https://github.com/nahuel36/WorkshopProject)
 <br /> [<custom_link>Diapositivas</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 
