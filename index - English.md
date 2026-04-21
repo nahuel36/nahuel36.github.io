@@ -23,6 +23,7 @@ I develop my own games...
   - ui-toolkit
   - timeline window
   - node graphs
+- **Large Language Models (LLMs)** 
 - **Database**
   - uploading level data, scores, favorites and rank in Supabase   
 - **and Assets like**
