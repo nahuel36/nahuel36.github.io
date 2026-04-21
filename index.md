@@ -27,7 +27,7 @@ si quieres ver que juegos hice con estas ve a mi linkedin.
 - **Bases de datos**
   - subiendo datos de un nivel, puntajes, niveles favoritos y ranking .
   - todo esto usando Supabase
-- ** Large Language Models (LLMs) **
+- **Large Language Models (LLMs)**
 - **y Assets como**
   - DoTween
   - algunos path-finders
