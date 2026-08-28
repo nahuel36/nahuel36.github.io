@@ -53,20 +53,20 @@ Finalmente, queda explicar **Ping Pong**. Es similar a loop, pero cada vez que r
 
 <br/>![PingPong example](../curves/pingpong.gif "PingPong")
 
-Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
-But, in Ping Pong the light raise from 0 to 1, then decrease from 1 to 0, and so on.
-Sometimes Ping Pong is more elegant solution.
-But, if you design a curve that start and ends in the same intensity, then you will use Loop probably.
+Notar que, en Loop, la intensidad de la luz va desde 0 a 1, y despues repentinamente cambia a 0, para ir a 1 de vuelta.
+En cambio, en Ping Pong, la luz tiene mas continuidad, ya que va desde 0 a 1, luego de 1 a 0, luego de 0 a 1, y asi sucesivamente.
+A veces PingPong es una solución mas elegante.
+Pero si diseñas una curva que empieza y termina con la misma intensidad, entonces capaz sea mejor usar Loop.
 
-# Intensity with non linear change
+# Intensidad con un cambio no lineal
 
-But, for now, we talked of straight lines. What happen with Curved lines? 
-<br/>This Is the juicy part, because here starts your creativity, you will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
+Por ahora, hemos hablado de lineas rectas, ¿Pero qué pasa con las lineas curvas?
+<br/>Esta es la parte interesante, porque aquí­ comienza tu creatividad, ya que es es una herramienta que dará movimmientos originales, suaves, o muy rapidos, o en un principio suaves y luego rápidos, la posibilidad de formas es infinita. 
 <br/><br/>
-For example, imagine a conection from (0,0) to (1,1) again, but with this form
-<br/>![complex example curve](../curves/curve4.png "Local Image")
-<br/>That means that the initial variation will slowly change, but in the end will change with a lot of speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical curve means fast change. Then the variation is not linear anymore, and adds more natural movements.
-<br/><br/>For example you can make a light slowly turn on, but when take half, decrease to quarter, anda then go fast to max intensity, then abruptly go to 0 and stand this a while, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
+Por ejemplo, imaginemos una curva que va desde (0,0) a (1,1) pero con esta forma: 
+<br/>![complex example curve](../curves/curve4.png "NoLineal1")
+<br/>Esto significa que los valores iniciales van a variar ligeramente, suave. Pero hacia el final va a cambiar con un monton de velocidad. ¿Entiendes esto en la forma de la curva? Una linea que tiende a ser horizontal, implica cambios suaves, mientras que una linea tendiendo a forma vertical implica cambios bruscos en el tiempo. Entonces la variacion no es mas lineal, ahora tiene movimientos mas naturales.
+<br/><br/>Por ejemplo, puedes hacer una luz una luz que se prende suavemente, pero cuando alcanza la mitad empieza a disminuir hacia un cuarto, luego que vaya rapidamente hacia la máxima intensidad, entonces abruptamente va a 0 y se queda ahí­ por un tiempo, luego que haga todo lo mismo pero espejado con el post wrap ping pong. Entonces tendrás una salvaje e impredecible luz. 
 
 # Other animations
 
