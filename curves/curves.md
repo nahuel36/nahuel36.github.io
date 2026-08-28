@@ -74,7 +74,7 @@ Ok. We are ready to jump to the next level, LERP.
 <br/>Lerp transforms values that goes from 0 to 1, to a Min to Max value, or value 0 to value 1, as i named in the level editor. I prefer this names because not always the names go from smaller to taller. But always go from value 0 and 1 in the vertical axe of the curve.
 <br/><br/>
 Then, think that you have to make an vertical scale of a wall, you will need a scale from 1 to 5. For some reason is difficult configurate the curve editor for vertical values beyond 2, that is the reason that i use LERP. You have to setup value 0 and value 1 in the animation properties, to 1 and 5 respectively.
-Then you do it, simply draw a curve between (0,1) to (1,1) and the size will change from 1 to 5, and will last 1 second. Thanks to LERP.
+Then you do it, simply draw a curve between (0,0) to (1,1) and the size will change from 1 to 5, and will last 1 second. Thanks to LERP.
 <br/><br/>LERP asigns variables linearly. That means if value 1 is 5, value 0.5 is 2.5, and value 2 is 10.
 <br/>Again, with this you can imagine whatever you want. You can decrease size, you can change slowly, and fastly. You can rice and decrease in the same curve with more than 2 points, and move and rotate lines as you want. Your creativity is the limit.
 
