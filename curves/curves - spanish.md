@@ -27,10 +27,10 @@ Pero... Que significa el **eje vertical**? O... como la **forma** de la l­í­n
 <br/>![First Curve](../curves/curve1.png "Primer ejemplo")
 
 <br/><br/>LLendo mas allá, ahora si la linea recta va desde (0,0) hasta (2,1), la luz también irá de 0 a 1, pero esta vez tardará 2 segundos, porque el valor del eje **horizontal** del segundo punto es 2.
-<br/>![Second Curve](./curve2.png "Segundo ejemplo")
+<br/>![Second Curve](../curves/curve2.png "Segundo ejemplo")
 
 <br/><br/>If you want a variation of light starting half iluminated that uniformly decrease to quarter iluminated, and everything goes from the second 0,5 and 1,5 seconds. Then you have to draw a curve that goes from point (0.5, 0.5) to the point (1.5,0.25) 
-<br/>![Third Curve](./curve3.png "Local Image")
+<br/>![Third Curve](../curves/curve3.png "Local Image")
 
 <br/><br/>Understood? Pay attention to the **points** **numbers**, remember, **first** number is **time**, **second** number is the **animation variable** (light intensity in this case).
 <br/>In this case, seconds not start from zero, then that's when the pre wrap configuration takes important meaning. (I will explain in a bit how it works)
@@ -47,11 +47,11 @@ We will focus in post wrap and pre wrap. What happen when the curve exceds the l
 Then, we will see how **Loop** works. This just repeat infinitelly the same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that will take 0 intensity and linearly increments to 1 again. And so on.
 The same will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then will be preceded with a curve from 0 to 1.
 
-<br/>![Loop example](./loop.gif "Local Image")
+<br/>![Loop example](../curves/loop.gif "Local Image")
 
 Finally, how works **Ping Pong**? Similar to Loop, but mirroring the shape every time. For example, if the curves goes from (0,0) to (1,1), the next time will go to (1,1) to (0,0). The next time will mirror again, and so on.
 
-<br/>![PingPong example](./pingpong.gif "Local Image")
+<br/>![PingPong example](../curves/pingpong.gif "Local Image")
 
 Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
 But, in Ping Pong the light raise from 0 to 1, then decrease from 1 to 0, and so on.
@@ -64,7 +64,7 @@ But, for now, we talked of straight lines. What happen with Curved lines?
 <br/>This Is the juicy part, because here starts your creativity, you will have a tool to make more original movements, smooth or very fast, or in begining smooth and then very fast, the posibility of shapes are infinite.
 <br/><br/>
 For example, imagine a conection from (0,0) to (1,1) again, but with this form
-<br/>![complex example curve](./curve4.png "Local Image")
+<br/>![complex example curve](../curves/curve4.png "Local Image")
 <br/>That means that the initial variation will slowly change, but in the end will change with a lot of speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical curve means fast change. Then the variation is not linear anymore, and adds more natural movements.
 <br/><br/>For example you can make a light slowly turn on, but when take half, decrease to quarter, anda then go fast to max intensity, then abruptly go to 0 and stand this a while, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
 
@@ -89,6 +89,6 @@ With complex movements you can build an easy animation that confuse the player, 
 # Complex animation example
 
 In this example, we will see a rotation animation. With angle 0 set to 0, and angle 1 set to 90 degrees. With a slow start but a fast finish, using three points. And with a ping pong end wrap. Here are the curve and the motion gif.
-<br/>![complex example curve](./curve4.png "Local Image")
-<br/>![complex example gif](./rotation.gif "Local Image")
+<br/>![complex example curve](../curves/curve4.png "Local Image")
+<br/>![complex example gif](../curves/rotation.gif "Local Image")
 
