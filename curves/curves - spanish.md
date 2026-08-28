@@ -24,7 +24,7 @@ Pero... Que significa el **eje vertical**? O... como la **forma** de la l­í­n
 <br/>Bueno, empezemos interpretandolo como la intensidad de una luz.  
 <br/>Si el primer punto de la lí­nea coí­ncide verticalmente con el valor 0, significa que la luz estará **apagada**. Y el valor 1 significa que estará prendida con una **intensidad fuerte**.
 <br/><br/>Si dibujas una lí­nea recta desde el punto (0,0) hasta el punto (1,1), entonces la luz **empezará apagada**, y **gradualmente** y **uniformemente** irá subiendo su intensidad hasta alcanzar, en un segundo, la intensidad de valor 1, finalmente.
-<br/>![First Curve](./curve1.png "Primer ejemplo")
+<br/>![First Curve](../curves/curve1.png "Primer ejemplo")
 
 <br/><br/>LLendo mas allá, ahora si la linea recta va desde (0,0) hasta (2,1), la luz también irá de 0 a 1, pero esta vez tardará 2 segundos, porque el valor del eje **horizontal** del segundo punto es 2.
 <br/>![Second Curve](./curve2.png "Segundo ejemplo")
