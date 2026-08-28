@@ -29,7 +29,7 @@ Pero... ¿Qué significa el **eje vertical**? O... ¿Cómo la **forma** de la l�
 <br/><br/>LLendo mas allá, ahora si la linea recta va desde (0,0) hasta (2,1), la luz también irá de 0 a 1, pero esta vez tardará 2 segundos, porque el valor del eje **horizontal** del segundo punto es 2.
 <br/>![Second Curve](../curves/curve2.png "Segundo ejemplo")
 
-<br/><br/>Entonces, si por ejemplo quisieras una variación que comienze con la luz iluminando a medias, que uniformemente disminuya hasta un cuarto de iluminacion, y empieze a los 0.5 segundos y termine a los 1,5 segundos... entonces harí­as una lí­nea recta que vaya desde el punto (0.5,0.5) hasta el punto (1.5,0.25) 
+<br/><br/>Entonces, si por ejemplo quisieras una variación que comienze con la luz iluminando a medias, que uniformemente disminuya hasta un cuarto de iluminacion, y empieze a los 0.5 segundos y termine a los 1.5 segundos... entonces harí­as una lí­nea recta que vaya desde el punto (0.5,0.5) hasta el punto (1.5,0.25) 
 <br/>![Third Curve](../curves/curve3.png "Tercer ejemplo")
 
 <br/><br/>¿Se entiende por qué? Presta atención a los numeros de **cada punto**. Recuerda, el **primer** numero es **tiempo**, el **segundo** es la **variable de animación** (intensidad de la luz en este caso).
@@ -68,15 +68,15 @@ Por ejemplo, imaginemos una curva que va desde (0,0) a (1,1) pero con esta forma
 <br/>Esto significa que los valores iniciales van a variar ligeramente, suave. Pero hacia el final va a cambiar con un monton de velocidad. ¿Entiendes esto en la forma de la curva? Una linea que tiende a ser horizontal, implica cambios suaves, mientras que una linea tendiendo a forma vertical implica cambios bruscos en el tiempo. Entonces la variacion no es mas lineal, ahora tiene movimientos mas naturales.
 <br/><br/>Por ejemplo, puedes hacer una luz una luz que se prende suavemente, pero cuando alcanza la mitad empieza a disminuir hacia un cuarto, luego que vaya rapidamente hacia la máxima intensidad, entonces abruptamente va a 0 y se queda ahí­ por un tiempo, luego que haga todo lo mismo pero espejado con el post wrap ping pong. Entonces tendrás una salvaje e impredecible luz. 
 
-# Other animations
+# Otras animaciones
 
-Ok. We are ready to jump to the next level, LERP.
-<br/>Lerp transforms values that goes from 0 to 1, to a Min to Max value, or value 0 to value 1, as i named in the level editor. I prefer this names because not always the names go from smaller to taller. But always go from value 0 and 1 in the vertical axe of the curve.
+Ok, ya estamos listos para ir al siguiente nivel, LERP.
+<br/>Lerp transforma valores que van de 0 a 1, en valores que van de un valor **mí­nimo** a un valor **máximo**, o dicho de otra form de un valor 0 hasta un valor 1. Prefiero llamarlo asi en vezx de minimo o maximo, porque no siemnpre va de un valor chico a un valor grande, pero en cambio siempre va a variar desde el valor 0 del eje vertical de la curva hasta el valor 1 del mismo eje. 
 <br/><br/>
-Then, think that you have to make an vertical scale of a wall, you will need a scale from 1 to 5. For some reason is difficult configurate the curve editor for vertical values beyond 2, that is the reason that i use LERP. You have to setup value 0 and value 1 in the animation properties, to 1 and 5 respectively.
-Then you do it, simply draw a curve between (0,1) to (1,1) and the size will change from 1 to 5, and will last 1 second. Thanks to LERP.
-<br/><br/>LERP asigns variables linearly. That means if value 1 is 5, value 0.5 is 2.5, and value 2 is 10.
-<br/>Again, with this you can imagine whatever you want. You can decrease size, you can change slowly, and fastly. You can rice and decrease in the same curve with more than 2 points, and move and rotate lines as you want. Your creativity is the limit.
+Entonces, imagina que tenemos la escala vertical de una pared, y necesitamos que varí­e desde 1 a 5. Por alguna razón, la herramienta de curvas tiene dificultades para poner valores verticales mayores a 2, por esa razon se usa LERP. Simplemente hacemos una curva que varí­e verticalmente entre 0 y 1, y en las propiedades de la animación configuramos 1 para el valor 0 y 5 para el valor 1.
+Entonces ya lo tienes, simplemente dibujar una curva entre (0,0) y (1,1) y el tamaño variará de 1 a 5, y tardará 1 segundo. Todo gracias a LERP. 
+<br/><br/>LERP asigna los valores de forma lineal, eso signfica que el valor 1 va a transformarse en 5, el 0.5 en 2.5 y el valor 2 en 10 (solo como ejemplo, ya que en realidad solo llegaremos hasta 1). 
+<br/>Lo repito, con esto puedes imaginar lo que quieras. Puedes disminuir el tamaño, cambiando suavamente o bruscamente. Puedes variar el tamaño con mas de dos puntos, mover los puntos y rotar las lineas como quieras. Tu creatividad es el lí­mite.
 
 # Rotate animation
 
