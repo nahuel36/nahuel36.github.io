@@ -66,7 +66,7 @@ But, for now, we talked of straight lines. What happen with Curved lines?
 For example, imagine a conection from (0,0) to (1,1) again, but with this form
 <br/>![complex example curve](./curve4.png "Local Image")
 <br/>That means that the initial variation will slowly change, but in the end will change with a lot of speed. Did you understand this with the shape? A more horizontal líne means slow change, and a more vertical curve means fast change. Then the variation is not linear anymore, and adds more natural movements.
-<br/><br/>For example you can make a light slowly turn on, but when take half, decrease to quarter, anda then go fast to max intensity, then abruptly go to 0 and stand this a while, then do the oposingo behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
+<br/><br/>For example you can make a light slowly turn on, but when take half, decrease to quarter, and then go fast to max intensity, then abruptly go to 0 and stand this a while, then do the oposing behaviour configurating ping Pong post wrap. Then you have it, a very naughty and a little unpredictible light.
 
 # Other animations
 
