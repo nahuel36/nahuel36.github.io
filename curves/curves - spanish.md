@@ -20,7 +20,7 @@ En mi Editor de Niveles, puedes describir como quieres que varí­e la intensida
 <br/>El comportamiento después del primer segundo va a depender de la configuración Post Wrap (hablaremos de eso mas adelante).
 <br/><br/>
 Entonces, ya sabes que es lo que pasa con la curva horizontalmente (tiempo en segundos).
-Pero... Que significa el **eje vertical**? O... como la **forma** de la l­í­nea de la curva afecta los usos de Animation Curve?
+Pero... ¿Qué significa el **eje vertical**? O... ¿Cómo la **forma** de la l­í­nea de la curva afecta los usos de Animation Curve?
 <br/>Bueno, empezemos interpretandolo como la intensidad de una luz.  
 <br/>Si el primer punto de la lí­nea coí­ncide verticalmente con el valor 0, significa que la luz estará **apagada**. Y el valor 1 significa que estará prendida con una **intensidad fuerte**.
 <br/><br/>Si dibujas una lí­nea recta desde el punto (0,0) hasta el punto (1,1), entonces la luz **empezará apagada**, y **gradualmente** y **uniformemente** irá subiendo su intensidad hasta alcanzar, en un segundo, la intensidad de valor 1, finalmente.
@@ -29,29 +29,29 @@ Pero... Que significa el **eje vertical**? O... como la **forma** de la l­í­n
 <br/><br/>LLendo mas allá, ahora si la linea recta va desde (0,0) hasta (2,1), la luz también irá de 0 a 1, pero esta vez tardará 2 segundos, porque el valor del eje **horizontal** del segundo punto es 2.
 <br/>![Second Curve](../curves/curve2.png "Segundo ejemplo")
 
-<br/><br/>If you want a variation of light starting half iluminated that uniformly decrease to quarter iluminated, and everything goes from the second 0,5 and 1,5 seconds. Then you have to draw a curve that goes from point (0.5, 0.5) to the point (1.5,0.25) 
-<br/>![Third Curve](../curves/curve3.png "Local Image")
+<br/><br/>Entonces, si por ejemplo quisieras una variación que comienze con la luz iluminando a medias, que uniformemente disminuya hasta un cuarto de iluminacion, y empieze a los 0.5 segundos y termine a los 1,5 segundos... entonces harí­as una lí­nea recta que vaya desde el punto (0.5,0.5) hasta el punto (1.5,0.25) 
+<br/>![Third Curve](../curves/curve3.png "Tercer ejemplo")
 
-<br/><br/>Understood? Pay attention to the **points** **numbers**, remember, **first** number is **time**, **second** number is the **animation variable** (light intensity in this case).
-<br/>In this case, seconds not start from zero, then that's when the pre wrap configuration takes important meaning. (I will explain in a bit how it works)
-<br/>Therefore, we can do more than 2 points, and create different transitions across the time.
+<br/><br/>¿Se entiende por qué? Presta atención a los numeros de **cada punto**. Recuerda, el **primer** numero es **tiempo**, el **segundo** es la **variable de animación** (intensidad de la luz en este caso).
+<br/>En este caso, los segundos no empiezan desde cero, entonces es cuando el **pre wrap** entra en acción. (Explicaré en corto como funciona) 
+<br/>LLendo mas allá, podemos hacer mas de dos puntos, y crear diferentes transiciones a travez del tiempo. 
 
 # Pre and Post Wrap
 
-We will focus in post wrap and pre wrap. What happen when the curve exceds the limits? There are 3 behaviours, **clamp, loop and ping-pong**.
+Nos enfocaremos en el post wrap y el pre wrap. ¿Que pasa con la animación fuera de los limites de la curva? Puede haber tres comportamientos **clamp, loop y ping-pong**
 
-**Clamp** means that will take the last point and use that value for eternity. 
-<br/>If we take the first example (from (0,0) to (1,1)), after 1 second, the light will remain turned on. This is a clamp post wrap.
-<br/>Or, in the third example ((0.5,0.5) to (1.5, 0.25)), the light will start in time zero with 0.5 intensity until the curve start varying (in time 0.5). This is a clamp pre wrap.
+**Clamp** significa que tomará el valor del último punto y lo usará por toda la eternidad.
+<br/>Si tomamos el primer ejemplo (desde (0,0) hasta (1,1)) y configuramos el post wrap como clamp, luego de pasar el limite, la curva valerá 1 verticalmente durante todos los segundos posteriores.
+<br/>Y, en el tercer ejemplo ((0.5,0.5) to (1.5, 0.25)), la luz comenzará con intensidad 0.5 desde el segundo cero hasta el segundo 0.5, ya que esto estaba fuera del limite inicial. Esto serí­a un ejemplo de pre wrap clamp. 
 
-Then, we will see how **Loop** works. This just repeat infinitelly the same patreon of The curve. If the curve starts with 0 intensity and ends in 1. Then after that will take 0 intensity and linearly increments to 1 again. And so on.
-The same will happen with prewrap configuration, but before the first point of the curve. If starts with 0, then will be preceded with a curve from 0 to 1.
+Ahora, veremos como funciona el commportamiento **Loop**. Esto simplemente repite infinitamente el mismo patrón de la curva que hicimos durante toda la eternidad. Si la curva empieza en 0 verticalmente, y termina en 1, entonces luego de eso, volverá a empezar en 0, y terminará en 1, describiendo la misma forma de curva que habí­amos hecho. Y así­ sucesivamente. 
+Lo mismo pasa con el pre wrap, si empezamos en un tiempo mayor a cero, lo anterior a esto sera una replica de la misma curva precediendo la misma. Antes del limite izquierdo, tomará el ultimo valor de la curva, y retrocederá dibujando ls misma curva hasta llegar hasta el tiempo 0.
 
-<br/>![Loop example](../curves/loop.gif "Local Image")
+<br/>![Loop example](../curves/loop.gif "Loop")
 
-Finally, how works **Ping Pong**? Similar to Loop, but mirroring the shape every time. For example, if the curves goes from (0,0) to (1,1), the next time will go to (1,1) to (0,0). The next time will mirror again, and so on.
+Finalmente, queda explicar **Ping Pong**. Es similar a loop, pero cada vez que repite la curva, la espeja. Por ejemplo, si la curva va desde (0,0) hasta (1,1), entonces luego irá desde (1,1) hasta (0,0) describiendo la curva original pero espejada. Luego de eso, la vuelve a espejar, por lo que queda la curva original. Luego espejada otra vez, y luego original otra vez. Así­ eternamente.
 
-<br/>![PingPong example](../curves/pingpong.gif "Local Image")
+<br/>![PingPong example](../curves/pingpong.gif "PingPong")
 
 Note that, in Loop, the light intensity will raise from 0 to 1, and go to 0 suddenly and raise to 1 again.
 But, in Ping Pong the light raise from 0 to 1, then decrease from 1 to 0, and so on.
