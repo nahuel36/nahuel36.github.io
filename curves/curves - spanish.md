@@ -78,17 +78,17 @@ Entonces ya lo tienes, simplemente dibujar una curva entre (0,0) y (1,1) y el ta
 <br/><br/>LERP asigna los valores de forma lineal, eso signfica que el valor 1 va a transformarse en 5, el 0.5 en 2.5 y el valor 2 en 10 (solo como ejemplo, ya que en realidad solo llegaremos hasta 1). 
 <br/>Lo repito, con esto puedes imaginar lo que quieras. Puedes disminuir el tamaño, cambiando suavamente o bruscamente. Puedes variar el tamaño con mas de dos puntos, mover los puntos y rotar las lineas como quieras. Tu creatividad es el lí­mite.
 
-# Rotate animation
+# Animación de rotación
 
-Using the idea of LERP. You can do rotation variation too. Only that the value 0 will be an angle and value 1 will be another angle.
-<br/>For example, to rotate continuously 360 degrees, you can set up angle 0 to 0 and angle 1 to 360. And in the curve make a straight line between (0,0) and (1,1) if you want a complete rotation in 1 second (by example).
-<br/>You can put another angle, and is not necessary and angle 0 minor to angle 1, that's not important to LERP. You can slowly go from (0,0) to (1.25,0.5) (from angle 0 to half of angle 1 in 1.25 seconds) then wait 3 seconds in the same value (completely horizontal line) this means go to (4.25, 0.5), then go to (6,0.75) (75% of angle 1 in 1.75 seconds more) faster, and so on.
+Usando la idea de LERP, podemos hacer variaciones en la rotación también. Solo debes pensar que el valor 0 será un ángulo inicial, y el valor 1 un ángulo final.
+<br/>Por ejemplo, para rotar continuamente 360 grados, tenes que configurar el valor 0 como angulo 0, y el valor 1 como angulo 360. Y en la forma de la curva hacer una linea recta que vaya desde (0,0) hasta (1,1), si quieres por ejemplo que complete toda la rotación en 1 segundo. 
+<br/>Puedes poner otro angulo, y tampoco es necesario que el angulo del valor 0 sea menor al angulo del valor 1, esto no le importa al LERP. Puedes ir suavemente desde (0,0) hasta (1.25,0.5) (desde el valor 0 hasta el valor 1 en 1.25 segundos). Entonces esperar 3 segundos con el mismo valor (una linea completamente horizontal, que termine en el punto (4.25, 0.5)), después ir hasta (6,0.75) (rotar hasta el 75% del angulo del valor 1 en 1.75 segundos) rápidamente, y así­ sucesivamente.
 
-With complex movements you can build an easy animation that confuse the player, or make more easy to play too, it's a very powerful tool. Because of that I decided use it, affording the dificulty learn curve.
+Con movimientos complejos puedes hacer animaciones que confundan al jugadaor, o hacerlo mas facil de jugar también, es una herramienta muy poderosa. Por eso decidí­ usarla, afrontando la curva de aprendizaje que tiene.
 
-# Complex animation example
+# Ejemplo de animación compleja
 
-In this example, we will see a rotation animation. With angle 0 set to 0, and angle 1 set to 90 degrees. With a slow start but a fast finish, using three points. And with a ping pong end wrap. Here are the curve and the motion gif.
-<br/>![complex example curve](../curves/curve4.png "Local Image")
-<br/>![complex example gif](../curves/rotation.gif "Local Image")
+En este ejemplo verás una animacion de rotación. Con el valor 0 puesto como 0 grados, y el valor 1 como 90 grados. Tiene un comienzo suave y una finalización brusca, usando tres puntos. Y usando ping pong como end wrap. A continuación la curva que quedarí­a y una animación de como girarí­a dicha columna.
+<br/>![complex example curve](../curves/curve4.png "Complex curve")
+<br/>![complex example gif](../curves/rotation.gif "Complex animation")
 
