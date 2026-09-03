@@ -31,7 +31,7 @@ si quieres ver que juegos hice con estas ve a mi linkedin.
 - **y Assets como**
   - DoTween
   - algunos path-finders
-- [<custom_link>**Godot Engine**</custom_link>](https://lab36.com.ar/godot/GodotTest)
+- [<custom_link>Godot Engine</custom_link>](https://lab36.com.ar/godot/GodotTest)
   - [Codigo fuente](https://github.com/nahuel36/godot_workshop)
 
 # Juegos en los que estoy trabajando
@@ -75,13 +75,14 @@ Como ya dije, trabajé para algunas companí­as
 
 # Talleres
 
-Como dije al principio, estuve dando un taller de desarrollo de videojuegos. Y voy a dar uno pero de Godot, al final de esta sección lo describo.
-Fue en la Universidad Atlántida, de Mar de Ajó.
+Estuve dando un taller de desarrollo de videojuegos con Unity. Y voy a dar uno pero de Godot, al final de esta sección lo describo.
+<br /> En la Universidad Atlántida, de Mar de Ajó.
 <br /> En un principio dí­ este taller en un solo dí­a, y puedo pasarte el material que usé aquella vez: 
 <br /> [<custom_link>Proyecto en GitHub</custom_link>](https://github.com/nahuel36/WorkshopProject/tree/version_primer_curso)
 <br /> [<custom_link>Diapositivas</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
-También tuve la oportunidad de dar un taller de 5 clases a fines de 2025, de modo presencial. Y otro a principios de 2026 de 7 clases de modo virtual.
-Ahora me dieron la oportunidad de dar un taller de Godot en octubre. Este será bastante corto ya que será en un solo encuentro. Este estará basado en [este tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0).
+<br /> También tuve la oportunidad de dar un taller de 5 clases a fines de 2025, de modo presencial. Y otro a principios de 2026 de 7 clases de modo virtual.
+<br />Ahora me dieron la oportunidad de dar un taller de Godot en octubre. Este será bastante corto ya que será en un solo encuentro. Este estará basado en [este tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0).
+
 # Contacto
 
 Si quieres comunicarte por alguna razón, mandame un mail por el [formulario]({{ site.baseurl }}/contact/)
