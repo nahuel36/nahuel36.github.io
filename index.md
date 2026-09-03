@@ -10,7 +10,7 @@ title: LAB36
 <br /> Este es un estudio de videojuegos humilde de un programador, algunos proyectos hechos con otras personas también. 
 <br /> Tengo mas de 10 años de experiencia, trabajé para distintas empresas, 
 si quieres ver que juegos hice con estas ve a mi linkedin. 
-<br /> Actualmente estoy dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina.
+<br /> Estuve dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina. Posiblemente dé un taller de Godot en octubre, esten atentos. Ver mas detalles abajo.
 
 <br />Si te gusta algún juego y quieres contribuir de alguna forma, como diseño, arte, consejos, etc...
 <br />[contáctanos]({{ site.baseurl }}/contact/)
@@ -31,6 +31,8 @@ si quieres ver que juegos hice con estas ve a mi linkedin.
 - **y Assets como**
   - DoTween
   - algunos path-finders
+- [<custom_link>Godot Engine</custom_link>](https://lab36.com.ar/godot/GodotTest)
+  - [Codigo fuente](https://github.com/nahuel36/godot_workshop)
 
 # Juegos en los que estoy trabajando
 
@@ -71,13 +73,15 @@ Como ya dije, trabajé para algunas companí­as
 <br />Aprendi muchas cosas, entre ellas, hacer ports para las consolas de Sony, Nintendo y Microsoft. 
 <br />Podes ver más detalles en mi [<custom_link>página de LinkedIn</custom_link>](https://www.linkedin.com/in/nahuel-muchetti-066abb77/).
 
-# Taller de Unity
+# Talleres
 
-Como dije al principio, estoy dando un taller de desarrollo de videojuegos. 
-Esto por el momento es en la Universidad Atlántida, de Mar de Ajó. Es un taller sincrónico virtual de 7 clases, puede inscribirse cualquiera, empieza en Mayo de 2026. [<custom_link>LINK DE INSCRIPCION</custom_link>](https://inscribite.atlantida.edu.ar/carreras/taller-unity/)
+Estuve dando un taller de desarrollo de videojuegos con Unity. Y voy a dar uno pero de Godot, al final de esta sección lo describo.
+<br /> En la Universidad Atlántida, de Mar de Ajó.
 <br /> En un principio dí­ este taller en un solo dí­a, y puedo pasarte el material que usé aquella vez: 
 <br /> [<custom_link>Proyecto en GitHub</custom_link>](https://github.com/nahuel36/WorkshopProject/tree/version_primer_curso)
 <br /> [<custom_link>Diapositivas</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
+<br /> También tuve la oportunidad de dar un taller de 5 clases a fines de 2025, de modo presencial. Y otro a principios de 2026 de 7 clases de modo virtual.
+<br />Ahora me dieron la oportunidad de dar un taller de Godot en octubre. Este será bastante corto ya que será en un solo encuentro. Este estará basado en [este tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0).
 
 # Contacto
 
