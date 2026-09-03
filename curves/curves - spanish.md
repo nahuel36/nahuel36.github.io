@@ -7,7 +7,7 @@ description: Como usar AC y LERP en mi editor de niveles
 
 # Introducción
 
-He decidido usar **Animation Curves** y **Lerp** en nuestro Editor de Niveles.
+He decidido usar **Animation Curves** y **Lerp** en nuestro [Editor de Niveles](https://www.youtube.com/watch?v=PqREmJsEe-4).
 <br/>El problema es que, no todo el mundo sabe como usarlo, pero intentaré explicarlo en este documento.
 <br/><br/>
 Un **uso** de las Animation Curves es describir algo que **varí­a a travez del tiempo**

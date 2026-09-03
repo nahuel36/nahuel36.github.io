@@ -34,7 +34,7 @@ I develop my own games...
 
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> A top-down puzzle game
-<br /> Actually working in a level editor ingame, you can see how we are implementing animations curves [here]({{ site.baseurl }}/curves/)
+<br /> Actually working in a [level editor ingame](https://www.youtube.com/watch?v=PqREmJsEe-4)., you can see how we are implementing animations curves [here]({{ site.baseurl }}/curves/)
 
 
 # Finished or paused projects

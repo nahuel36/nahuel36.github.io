@@ -36,7 +36,7 @@ si quieres ver que juegos hice con estas ve a mi linkedin.
 
 * [<custom_link>Light and Dark</custom_link>](https://nahuel36.itch.io/light-and-dark)
 <br /> Un juego de puzzles de vista TopDown, con 2 integrantes colaborando también.
-<br /> Actualmente trabajando en un editor de niveles para los jugadores, en el que implementé uso de Animation Curves, puedes verlo [aquí­]({{site.baseurl }}/curves/)
+<br /> Actualmente trabajando en un [Editor de Niveles](https://www.youtube.com/watch?v=PqREmJsEe-4) para los jugadores, en el que implementé uso de Animation Curves, puedes verlo [aquí­]({{site.baseurl }}/curves-esp/ )
 
 * El Legado del Silencio
 <br /> Solo puedo decir que es una aventura gráfica, tengo prohibido decir más
