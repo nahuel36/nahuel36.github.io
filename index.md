@@ -10,7 +10,7 @@ title: LAB36
 <br /> Este es un estudio de videojuegos humilde de un programador, algunos proyectos hechos con otras personas también. 
 <br /> Tengo mas de 10 años de experiencia, trabajé para distintas empresas, 
 si quieres ver que juegos hice con estas ve a mi linkedin. 
-<br /> Estuve dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina. Posiblemente dé un taller de Godot en octubre, esten atentos. Ver mas detalles abajo.
+<br /> Estuve dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina. Posiblemente dé otro en en octubre y en noviembre, esten atentos. Ver mas detalles abajo.
 
 <br />Si te gusta algún juego y quieres contribuir de alguna forma, como diseño, arte, consejos, etc...
 <br />[contáctanos]({{ site.baseurl }}/contact/)
@@ -75,13 +75,13 @@ Como ya dije, trabajé para algunas companí­as
 
 # Talleres
 
-Estuve dando un taller de desarrollo de videojuegos con Unity. Y voy a dar uno pero de Godot, al final de esta sección lo describo.
+Estuve dando un taller de desarrollo de videojuegos con Unity. Y voy a dar uno nuevo, al final de esta sección lo describo.
 <br /> En la Universidad Atlántida, de Mar de Ajó.
 <br /> En un principio dí­ este taller en un solo dí­a, y puedo pasarte el material que usé aquella vez: 
 <br /> [<custom_link>Proyecto en GitHub</custom_link>](https://github.com/nahuel36/WorkshopProject/tree/version_primer_curso)
 <br /> [<custom_link>Diapositivas</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 <br /> También tuve la oportunidad de dar un taller de 5 clases a fines de 2025, de modo presencial. Y otro a principios de 2026 de 7 clases de modo virtual.
-<br />Ahora me dieron la oportunidad de dar un taller de Godot en octubre. Este será bastante corto ya que será en un solo encuentro. Este estará basado en [este tutorial](https://www.youtube.com/watch?v=LOhfqjmasi0).
+<br />Ahora me dieron la oportunidad de dar un taller de un solo dí­a en octubre, y otro en noviembre. Serán iguales, y bastantes cortos ya que será en un solo encuentro. Será un taller práctico/teórico, con la cantidad de requerimientos lo menor posible, y no profundizará mucho en código o cosas complicadas. La idea es ir creando un juego de plataformas paso a paso.
 
 # Contacto
 
