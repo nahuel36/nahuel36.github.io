@@ -92,3 +92,6 @@ En este ejemplo verás una animacion de rotación. Con el valor 0 puesto como 0 
 <br/>![complex example curve](../curves/curve4.png "Complex curve")
 <br/>![complex example gif](../curves/rotation.gif "Complex animation")
 
+# Video sobre curvas
+
+Por si no terminaste de entenderlo, [aquí](https://www.youtube.com/watch?v=cTSrjN_2qDI)­ hay un video que explica curvas 2D bastante bien 
