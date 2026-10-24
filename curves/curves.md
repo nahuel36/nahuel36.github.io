@@ -92,3 +92,6 @@ In this example, we will see a rotation animation. With angle 0 set to 0, and an
 <br/>![complex example curve](./curve4.png "Local Image")
 <br/>![complex example gif](./rotation.gif "Local Image")
 
+# Curves 2D video
+
+If you dont understanded it very well, [here](https://www.youtube.com/watch?v=cTSrjN_2qDI) are a video explaining it better
