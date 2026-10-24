@@ -94,4 +94,4 @@ In this example, we will see a rotation animation. With angle 0 set to 0, and an
 
 # Curves 2D video
 
-If you dont understanded it very well, [here](https://www.youtube.com/watch?v=cTSrjN_2qDI) are a video explaining it better
+If you didn't quite understand it, [here](https://www.youtube.com/watch?v=cTSrjN_2qDI) are a video explaining it better
