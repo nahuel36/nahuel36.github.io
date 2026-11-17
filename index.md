@@ -81,7 +81,7 @@ Estuve dando un taller de desarrollo de videojuegos con Unity. Y voy a dar uno n
 <br /> [<custom_link>Proyecto en GitHub</custom_link>](https://github.com/nahuel36/WorkshopProject/tree/version_primer_curso)
 <br /> [<custom_link>Diapositivas</custom_link>](https://www.canva.com/design/DAGnerNQQ7I/uhNhnCHly4P0CKGRMduRsg/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
 <br /> También tuve la oportunidad de dar un taller de 5 clases a fines de 2025, de modo presencial. Y otro a principios de 2026 de 7 clases de modo virtual.
-<br />Ahora me dieron la oportunidad de dar un taller de un solo dí­a en octubre, y otro en noviembre. Serán iguales, y bastantes cortos ya que será en un solo encuentro. Será un taller práctico/teórico, con la cantidad de requerimientos lo menor posible, y no profundizará mucho en código o cosas complicadas. La idea es ir creando un juego de plataformas paso a paso.
+<br /
 
 # Contacto
 
