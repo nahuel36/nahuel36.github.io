@@ -10,7 +10,7 @@ title: LAB36
 <br /> Este es un estudio de videojuegos humilde de un programador, algunos proyectos hechos con otras personas también. 
 <br /> Tengo mas de 10 años de experiencia, trabajé para distintas empresas, 
 si quieres ver que juegos hice con estas ve a mi linkedin. 
-<br /> Estuve dando un taller de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina. Posiblemente dé otro en en octubre y en noviembre, esten atentos. Ver mas detalles abajo.
+<br /> Estuve dando varios talleres y cursos de desarrollo de videojuegos con Unity, en la Universidad Atlántida de Mar de Ajó, La Costa de Buenos Aires, Argentina. Ver mas detalles abajo.
 
 <br />Si te gusta algún juego y quieres contribuir de alguna forma, como diseño, arte, consejos, etc...
 <br />[contáctanos]({{ site.baseurl }}/contact/)
@@ -43,6 +43,9 @@ si quieres ver que juegos hice con estas ve a mi linkedin.
 * El Legado del Silencio
 <br /> Solo puedo decir que es una aventura gráfica, tengo prohibido decir más
 <br /> En conjunto con un colaborador más
+
+* [Osvaldo y los agujeros negros](https://nahuel36.itch.io/osvaldo-atrapado)
+Hice este juego en el contexto de la Osvaldo Game Jam, la primera versión desarrollada en 12 horas, un plataformero con un efecto muy especial.
 
 # Juegos pausados/terminados
 
