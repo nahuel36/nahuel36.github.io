@@ -44,7 +44,7 @@ si quieres ver que juegos hice con estas ve a mi linkedin.
 <br /> Solo puedo decir que es una aventura gráfica, tengo prohibido decir más
 <br /> En conjunto con un colaborador más
 
-* [Osvaldo y los agujeros negros](https://nahuel36.itch.io/osvaldo-atrapado)
+* [<custom_link>Osvaldo y los agujeros negros</custom_link>](https://nahuel36.itch.io/osvaldo-atrapado)
 Hice este juego en el contexto de la Osvaldo Game Jam, la primera versión desarrollada en 12 horas, un plataformero con un efecto muy especial.
 
 # Juegos pausados/terminados
